@@ -1,0 +1,382 @@
+[
+  {
+    "id": "C001",
+    "razao_social": "Restaurante Sabor de Minas",
+    "segmento": "restaurante",
+    "cnpj": "91.214.125/0001-45",
+    "vendedor_id": "V01",
+    "limite_credito": 8000,
+    "telefone_whatsapp": "+55 31 98457-3286",
+    "cidade": "Belo Horizonte"
+  },
+  {
+    "id": "C002",
+    "razao_social": "Hotel Ouro Preto Palace",
+    "segmento": "hotel",
+    "cnpj": "96.858.658/0001-21",
+    "vendedor_id": "V02",
+    "limite_credito": 20000,
+    "telefone_whatsapp": "+55 31 98864-1520",
+    "cidade": "Belo Horizonte"
+  },
+  {
+    "id": "C003",
+    "razao_social": "Condomínio Jardins da Serra",
+    "segmento": "condominio",
+    "cnpj": "21.323.338/0001-74",
+    "vendedor_id": "V03",
+    "limite_credito": 20000,
+    "telefone_whatsapp": "+55 31 98054-4257",
+    "cidade": "Betim"
+  },
+  {
+    "id": "C004",
+    "razao_social": "Bistrô Santa Tereza",
+    "segmento": "restaurante",
+    "cnpj": "63.325.559/0001-85",
+    "vendedor_id": "V04",
+    "limite_credito": 4000,
+    "telefone_whatsapp": "+55 31 99657-1106",
+    "cidade": "Belo Horizonte"
+  },
+  {
+    "id": "C005",
+    "razao_social": "Pousada Vale Verde",
+    "segmento": "hotel",
+    "cnpj": "99.532.448/0001-45",
+    "vendedor_id": "V05",
+    "limite_credito": 8000,
+    "telefone_whatsapp": "+55 31 98440-6514",
+    "cidade": "Belo Horizonte"
+  },
+  {
+    "id": "C006",
+    "razao_social": "Condomínio Alphaville Lagoa",
+    "segmento": "condominio",
+    "cnpj": "21.489.199/0001-55",
+    "vendedor_id": "V06",
+    "limite_credito": 10000,
+    "telefone_whatsapp": "+55 31 99236-5333",
+    "cidade": "Belo Horizonte"
+  },
+  {
+    "id": "C007",
+    "razao_social": "Churrascaria Boi na Brasa",
+    "segmento": "restaurante",
+    "cnpj": "68.649.227/0001-58",
+    "vendedor_id": "V01",
+    "limite_credito": 5000,
+    "telefone_whatsapp": "+55 31 99130-5803",
+    "cidade": "Betim"
+  },
+  {
+    "id": "C008",
+    "razao_social": "Hotel Mineiro Executivo",
+    "segmento": "hotel",
+    "cnpj": "56.691.296/0001-18",
+    "vendedor_id": "V02",
+    "limite_credito": 5000,
+    "telefone_whatsapp": "+55 31 99354-4733",
+    "cidade": "Nova Lima"
+  },
+  {
+    "id": "C009",
+    "razao_social": "Edifício Solar dos Ipês",
+    "segmento": "condominio",
+    "cnpj": "20.975.338/0001-22",
+    "vendedor_id": "V03",
+    "limite_credito": 15000,
+    "telefone_whatsapp": "+55 31 98569-8428",
+    "cidade": "Nova Lima"
+  },
+  {
+    "id": "C010",
+    "razao_social": "Padaria Pão de Queijo Real",
+    "segmento": "restaurante",
+    "cnpj": "30.479.463/0001-36",
+    "vendedor_id": "V04",
+    "limite_credito": 30000,
+    "telefone_whatsapp": "+55 31 98546-2169",
+    "cidade": "Betim"
+  },
+  {
+    "id": "C011",
+    "razao_social": "Restaurante Feijão Tropeiro",
+    "segmento": "restaurante",
+    "cnpj": "91.275.646/0001-41",
+    "vendedor_id": "V05",
+    "limite_credito": 8000,
+    "telefone_whatsapp": "+55 31 98946-7216",
+    "cidade": "Nova Lima"
+  },
+  {
+    "id": "C012",
+    "razao_social": "Hotel Lagoa Santa Inn",
+    "segmento": "hotel",
+    "cnpj": "91.804.670/0001-38",
+    "vendedor_id": "V06",
+    "limite_credito": 30000,
+    "telefone_whatsapp": "+55 31 98664-1916",
+    "cidade": "Belo Horizonte"
+  },
+  {
+    "id": "C013",
+    "razao_social": "Condomínio Vila da Serra Prime",
+    "segmento": "condominio",
+    "cnpj": "14.924.423/0001-61",
+    "vendedor_id": "V01",
+    "limite_credito": 10000,
+    "telefone_whatsapp": "+55 31 98135-4456",
+    "cidade": "Betim"
+  },
+  {
+    "id": "C014",
+    "razao_social": "Cantina Italiana Nonna Rosa",
+    "segmento": "restaurante",
+    "cnpj": "50.317.771/0001-73",
+    "vendedor_id": "V02",
+    "limite_credito": 15000,
+    "telefone_whatsapp": "+55 31 99811-8517",
+    "cidade": "Belo Horizonte"
+  },
+  {
+    "id": "C015",
+    "razao_social": "Academia Corpo em Forma",
+    "segmento": "outros",
+    "cnpj": "43.242.352/0001-81",
+    "vendedor_id": "V03",
+    "limite_credito": 20000,
+    "telefone_whatsapp": "+55 31 98538-8019",
+    "cidade": "Betim"
+  },
+  {
+    "id": "C016",
+    "razao_social": "Clínica Bem Viver",
+    "segmento": "outros",
+    "cnpj": "61.470.324/0001-27",
+    "vendedor_id": "V04",
+    "limite_credito": 20000,
+    "telefone_whatsapp": "+55 31 99010-2489",
+    "cidade": "Belo Horizonte"
+  },
+  {
+    "id": "C017",
+    "razao_social": "Restaurante Trem de Minas",
+    "segmento": "restaurante",
+    "cnpj": "24.256.742/0001-30",
+    "vendedor_id": "V05",
+    "limite_credito": 30000,
+    "telefone_whatsapp": "+55 31 98864-2040",
+    "cidade": "Contagem"
+  },
+  {
+    "id": "C018",
+    "razao_social": "Hotel Savassi Plaza",
+    "segmento": "hotel",
+    "cnpj": "58.710.579/0001-77",
+    "vendedor_id": "V06",
+    "limite_credito": 10000,
+    "telefone_whatsapp": "+55 31 99988-1188",
+    "cidade": "Belo Horizonte"
+  },
+  {
+    "id": "C019",
+    "razao_social": "Condomínio Parque das Flores",
+    "segmento": "condominio",
+    "cnpj": "97.649.868/0001-44",
+    "vendedor_id": "V01",
+    "limite_credito": 30000,
+    "telefone_whatsapp": "+55 31 98696-2827",
+    "cidade": "Nova Lima"
+  },
+  {
+    "id": "C020",
+    "razao_social": "Buffet Festa Boa",
+    "segmento": "restaurante",
+    "cnpj": "65.261.564/0001-10",
+    "vendedor_id": "V02",
+    "limite_credito": 30000,
+    "telefone_whatsapp": "+55 31 99793-5315",
+    "cidade": "Betim"
+  },
+  {
+    "id": "C021",
+    "razao_social": "Escola Pequeno Príncipe",
+    "segmento": "outros",
+    "cnpj": "32.619.208/0001-90",
+    "vendedor_id": "V03",
+    "limite_credito": 10000,
+    "telefone_whatsapp": "+55 31 99723-9317",
+    "cidade": "Betim"
+  },
+  {
+    "id": "C022",
+    "razao_social": "Hamburgueria Mineirinha",
+    "segmento": "restaurante",
+    "cnpj": "35.256.482/0001-30",
+    "vendedor_id": "V04",
+    "limite_credito": 20000,
+    "telefone_whatsapp": "+55 31 99952-9689",
+    "cidade": "Belo Horizonte"
+  },
+  {
+    "id": "C023",
+    "razao_social": "Hotel Contagem Center",
+    "segmento": "hotel",
+    "cnpj": "86.431.600/0001-12",
+    "vendedor_id": "V05",
+    "limite_credito": 5000,
+    "telefone_whatsapp": "+55 31 99902-6947",
+    "cidade": "Nova Lima"
+  },
+  {
+    "id": "C024",
+    "razao_social": "Condomínio Reserva Betim",
+    "segmento": "condominio",
+    "cnpj": "40.159.346/0001-82",
+    "vendedor_id": "V06",
+    "limite_credito": 5000,
+    "telefone_whatsapp": "+55 31 98175-8962",
+    "cidade": "Belo Horizonte"
+  },
+  {
+    "id": "C025",
+    "razao_social": "Restaurante Panela de Barro",
+    "segmento": "restaurante",
+    "cnpj": "78.884.228/0001-26",
+    "vendedor_id": "V01",
+    "limite_credito": 30000,
+    "telefone_whatsapp": "+55 31 98973-3705",
+    "cidade": "Nova Lima"
+  },
+  {
+    "id": "C026",
+    "razao_social": "Lavanderia Limpa Já",
+    "segmento": "outros",
+    "cnpj": "77.993.721/0001-64",
+    "vendedor_id": "V02",
+    "limite_credito": 6000,
+    "telefone_whatsapp": "+55 31 99902-9835",
+    "cidade": "Belo Horizonte"
+  },
+  {
+    "id": "C027",
+    "razao_social": "Pizzaria Forno a Lenha",
+    "segmento": "restaurante",
+    "cnpj": "49.508.787/0001-93",
+    "vendedor_id": "V03",
+    "limite_credito": 10000,
+    "telefone_whatsapp": "+55 31 98897-9479",
+    "cidade": "Contagem"
+  },
+  {
+    "id": "C028",
+    "razao_social": "Condomínio Morada Nova Lima",
+    "segmento": "condominio",
+    "cnpj": "25.353.330/0001-18",
+    "vendedor_id": "V04",
+    "limite_credito": 10000,
+    "telefone_whatsapp": "+55 31 98043-4770",
+    "cidade": "Betim"
+  },
+  {
+    "id": "C029",
+    "razao_social": "Hotel Pampulha Lagoa",
+    "segmento": "hotel",
+    "cnpj": "38.107.172/0001-90",
+    "vendedor_id": "V05",
+    "limite_credito": 5000,
+    "telefone_whatsapp": "+55 31 98468-2104",
+    "cidade": "Belo Horizonte"
+  },
+  {
+    "id": "C030",
+    "razao_social": "Café Mineiro Gourmet",
+    "segmento": "restaurante",
+    "cnpj": "52.172.626/0001-40",
+    "vendedor_id": "V06",
+    "limite_credito": 10000,
+    "telefone_whatsapp": "+55 31 99370-8953",
+    "cidade": "Belo Horizonte"
+  },
+  {
+    "id": "C031",
+    "razao_social": "Hospital Dia São Lucas",
+    "segmento": "outros",
+    "cnpj": "79.235.840/0001-83",
+    "vendedor_id": "V01",
+    "limite_credito": 20000,
+    "telefone_whatsapp": "+55 31 98968-4981",
+    "cidade": "Contagem"
+  },
+  {
+    "id": "C032",
+    "razao_social": "Restaurante Cozinha da Vó",
+    "segmento": "restaurante",
+    "cnpj": "62.294.196/0001-22",
+    "vendedor_id": "V02",
+    "limite_credito": 30000,
+    "telefone_whatsapp": "+55 31 98882-6804",
+    "cidade": "Contagem"
+  },
+  {
+    "id": "C033",
+    "razao_social": "Condomínio Belvedere Tower",
+    "segmento": "condominio",
+    "cnpj": "62.578.984/0001-16",
+    "vendedor_id": "V03",
+    "limite_credito": 30000,
+    "telefone_whatsapp": "+55 31 99338-2612",
+    "cidade": "Belo Horizonte"
+  },
+  {
+    "id": "C034",
+    "razao_social": "Hotel Estrada Real",
+    "segmento": "hotel",
+    "cnpj": "61.845.447/0001-23",
+    "vendedor_id": "V04",
+    "limite_credito": 8000,
+    "telefone_whatsapp": "+55 31 98392-4116",
+    "cidade": "Betim"
+  },
+  {
+    "id": "C035",
+    "razao_social": "Sushi Bar Kyoto BH",
+    "segmento": "restaurante",
+    "cnpj": "67.243.532/0001-33",
+    "vendedor_id": "V05",
+    "limite_credito": 10000,
+    "telefone_whatsapp": "+55 31 98947-5092",
+    "cidade": "Belo Horizonte"
+  },
+  {
+    "id": "C036",
+    "razao_social": "Supermercado Bom Preço",
+    "segmento": "outros",
+    "cnpj": "66.927.982/0001-80",
+    "vendedor_id": "V06",
+    "limite_credito": 5000,
+    "telefone_whatsapp": "+55 31 98103-9856",
+    "cidade": "Belo Horizonte"
+  },
+  {
+    "id": "C037",
+    "razao_social": "RESTAURANTE SABOR DE MINAS LTDA",
+    "segmento": "restaurante",
+    "cnpj": "91.214.125/0001-45",
+    "vendedor_id": "V01",
+    "limite_credito": 5000,
+    "telefone_whatsapp": "+55 31 98457-3286",
+    "cidade": "Belo Horizonte"
+  },
+  {
+    "id": "C038",
+    "razao_social": "Hotel Savasi Plaza",
+    "segmento": "hotel",
+    "cnpj": "",
+    "vendedor_id": null,
+    "limite_credito": 0,
+    "telefone_whatsapp": "",
+    "cidade": "Belo Horizonte"
+  }
+]

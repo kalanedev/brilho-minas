@@ -1,0 +1,38 @@
+[
+  {
+    "id": "V01",
+    "nome": "Carlos Mendes",
+    "regiao": "Centro-Sul",
+    "comissao_pct": 3.0
+  },
+  {
+    "id": "V02",
+    "nome": "Patrícia Lopes",
+    "regiao": "Pampulha",
+    "comissao_pct": 3.0
+  },
+  {
+    "id": "V03",
+    "nome": "Diego Ramos",
+    "regiao": "Contagem",
+    "comissao_pct": 2.5
+  },
+  {
+    "id": "V04",
+    "nome": "Fernanda Souza",
+    "regiao": "Nova Lima",
+    "comissao_pct": 3.5
+  },
+  {
+    "id": "V05",
+    "nome": "Rafael Teixeira",
+    "regiao": "Betim",
+    "comissao_pct": 2.5
+  },
+  {
+    "id": "V06",
+    "nome": "Juliana Castro",
+    "regiao": "Savassi",
+    "comissao_pct": 3.0
+  }
+]

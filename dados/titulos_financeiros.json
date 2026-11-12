@@ -1,0 +1,1190 @@
+[
+  {
+    "id": "T0001",
+    "cliente_id": "C001",
+    "valor": 2066.3,
+    "emissao": "2026-08-30",
+    "vencimento": "2026-09-27",
+    "status": "vencido",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0002",
+    "cliente_id": "C001",
+    "valor": 3945.07,
+    "emissao": "2026-08-03",
+    "vencimento": "2026-08-31",
+    "status": "vencido",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0003",
+    "cliente_id": "C001",
+    "valor": 1075.01,
+    "emissao": "2026-10-25",
+    "vencimento": "2026-11-22",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0004",
+    "cliente_id": "C002",
+    "valor": 4198.72,
+    "emissao": "2026-09-29",
+    "vencimento": "2026-10-27",
+    "status": "pago",
+    "data_pagamento": "2026-10-29"
+  },
+  {
+    "id": "T0005",
+    "cliente_id": "C002",
+    "valor": 2134.33,
+    "emissao": "2026-09-26",
+    "vencimento": "2026-10-24",
+    "status": "pago",
+    "data_pagamento": "2026-10-21"
+  },
+  {
+    "id": "T0006",
+    "cliente_id": "C002",
+    "valor": 3345.47,
+    "emissao": "2026-08-09",
+    "vencimento": "2026-09-06",
+    "status": "pago",
+    "data_pagamento": "2026-09-06"
+  },
+  {
+    "id": "T0007",
+    "cliente_id": "C002",
+    "valor": 1616.5,
+    "emissao": "2026-10-08",
+    "vencimento": "2026-11-05",
+    "status": "pago",
+    "data_pagamento": "2026-11-05"
+  },
+  {
+    "id": "T0008",
+    "cliente_id": "C002",
+    "valor": 3416.52,
+    "emissao": "2026-08-19",
+    "vencimento": "2026-09-16",
+    "status": "pago",
+    "data_pagamento": "2026-09-16"
+  },
+  {
+    "id": "T0009",
+    "cliente_id": "C003",
+    "valor": 2795.13,
+    "emissao": "2026-10-26",
+    "vencimento": "2026-11-23",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0010",
+    "cliente_id": "C003",
+    "valor": 4169.49,
+    "emissao": "2026-08-29",
+    "vencimento": "2026-09-26",
+    "status": "pago",
+    "data_pagamento": "2026-09-23"
+  },
+  {
+    "id": "T0011",
+    "cliente_id": "C004",
+    "valor": 1161.88,
+    "emissao": "2026-07-16",
+    "vencimento": "2026-08-13",
+    "status": "pago",
+    "data_pagamento": "2026-08-10"
+  },
+  {
+    "id": "T0012",
+    "cliente_id": "C004",
+    "valor": 3168.37,
+    "emissao": "2026-10-24",
+    "vencimento": "2026-11-21",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0013",
+    "cliente_id": "C005",
+    "valor": 1409.48,
+    "emissao": "2026-08-21",
+    "vencimento": "2026-09-18",
+    "status": "pago",
+    "data_pagamento": "2026-09-15"
+  },
+  {
+    "id": "T0014",
+    "cliente_id": "C005",
+    "valor": 2939.46,
+    "emissao": "2026-10-27",
+    "vencimento": "2026-11-24",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0015",
+    "cliente_id": "C006",
+    "valor": 1237.46,
+    "emissao": "2026-09-29",
+    "vencimento": "2026-10-27",
+    "status": "pago",
+    "data_pagamento": "2026-10-28"
+  },
+  {
+    "id": "T0016",
+    "cliente_id": "C006",
+    "valor": 1489.02,
+    "emissao": "2026-10-02",
+    "vencimento": "2026-10-30",
+    "status": "pago",
+    "data_pagamento": "2026-10-30"
+  },
+  {
+    "id": "T0017",
+    "cliente_id": "C006",
+    "valor": 3046.55,
+    "emissao": "2026-08-08",
+    "vencimento": "2026-09-05",
+    "status": "pago",
+    "data_pagamento": "2026-09-07"
+  },
+  {
+    "id": "T0018",
+    "cliente_id": "C006",
+    "valor": 4208.98,
+    "emissao": "2026-09-22",
+    "vencimento": "2026-10-20",
+    "status": "pago",
+    "data_pagamento": "2026-10-20"
+  },
+  {
+    "id": "T0019",
+    "cliente_id": "C007",
+    "valor": 2604.3,
+    "emissao": "2026-10-23",
+    "vencimento": "2026-11-20",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0020",
+    "cliente_id": "C007",
+    "valor": 1487.32,
+    "emissao": "2026-08-29",
+    "vencimento": "2026-09-26",
+    "status": "pago",
+    "data_pagamento": "2026-09-27"
+  },
+  {
+    "id": "T0021",
+    "cliente_id": "C008",
+    "valor": 1568.45,
+    "emissao": "2026-09-01",
+    "vencimento": "2026-09-29",
+    "status": "vencido",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0022",
+    "cliente_id": "C008",
+    "valor": 2627.19,
+    "emissao": "2026-09-10",
+    "vencimento": "2026-10-08",
+    "status": "vencido",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0023",
+    "cliente_id": "C008",
+    "valor": 4433.8,
+    "emissao": "2026-08-15",
+    "vencimento": "2026-09-12",
+    "status": "pago",
+    "data_pagamento": "2026-09-09"
+  },
+  {
+    "id": "T0024",
+    "cliente_id": "C009",
+    "valor": 824.7,
+    "emissao": "2026-08-09",
+    "vencimento": "2026-09-06",
+    "status": "pago",
+    "data_pagamento": "2026-09-06"
+  },
+  {
+    "id": "T0025",
+    "cliente_id": "C009",
+    "valor": 873.26,
+    "emissao": "2026-09-29",
+    "vencimento": "2026-10-27",
+    "status": "pago",
+    "data_pagamento": "2026-10-27"
+  },
+  {
+    "id": "T0026",
+    "cliente_id": "C009",
+    "valor": 2668.22,
+    "emissao": "2026-07-29",
+    "vencimento": "2026-08-26",
+    "status": "pago",
+    "data_pagamento": "2026-08-27"
+  },
+  {
+    "id": "T0027",
+    "cliente_id": "C009",
+    "valor": 2879.8,
+    "emissao": "2026-09-26",
+    "vencimento": "2026-10-24",
+    "status": "pago",
+    "data_pagamento": "2026-10-25"
+  },
+  {
+    "id": "T0028",
+    "cliente_id": "C010",
+    "valor": 2402.98,
+    "emissao": "2026-08-29",
+    "vencimento": "2026-09-26",
+    "status": "pago",
+    "data_pagamento": "2026-09-26"
+  },
+  {
+    "id": "T0029",
+    "cliente_id": "C010",
+    "valor": 3000.57,
+    "emissao": "2026-10-21",
+    "vencimento": "2026-11-18",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0030",
+    "cliente_id": "C010",
+    "valor": 1534.39,
+    "emissao": "2026-07-18",
+    "vencimento": "2026-08-15",
+    "status": "pago",
+    "data_pagamento": "2026-08-15"
+  },
+  {
+    "id": "T0031",
+    "cliente_id": "C010",
+    "valor": 3561.59,
+    "emissao": "2026-09-20",
+    "vencimento": "2026-10-18",
+    "status": "pago",
+    "data_pagamento": "2026-10-19"
+  },
+  {
+    "id": "T0032",
+    "cliente_id": "C011",
+    "valor": 3293.24,
+    "emissao": "2026-08-23",
+    "vencimento": "2026-09-20",
+    "status": "pago",
+    "data_pagamento": "2026-09-17"
+  },
+  {
+    "id": "T0033",
+    "cliente_id": "C011",
+    "valor": 858.68,
+    "emissao": "2026-10-31",
+    "vencimento": "2026-11-28",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0034",
+    "cliente_id": "C011",
+    "valor": 4106.11,
+    "emissao": "2026-08-05",
+    "vencimento": "2026-09-02",
+    "status": "pago",
+    "data_pagamento": "2026-08-30"
+  },
+  {
+    "id": "T0035",
+    "cliente_id": "C011",
+    "valor": 3821.84,
+    "emissao": "2026-10-28",
+    "vencimento": "2026-11-25",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0036",
+    "cliente_id": "C011",
+    "valor": 2665.35,
+    "emissao": "2026-08-19",
+    "vencimento": "2026-09-16",
+    "status": "pago",
+    "data_pagamento": "2026-09-18"
+  },
+  {
+    "id": "T0037",
+    "cliente_id": "C012",
+    "valor": 4085.82,
+    "emissao": "2026-09-16",
+    "vencimento": "2026-10-14",
+    "status": "pago",
+    "data_pagamento": "2026-10-14"
+  },
+  {
+    "id": "T0038",
+    "cliente_id": "C012",
+    "valor": 1261.31,
+    "emissao": "2026-09-17",
+    "vencimento": "2026-10-15",
+    "status": "pago",
+    "data_pagamento": "2026-10-15"
+  },
+  {
+    "id": "T0039",
+    "cliente_id": "C012",
+    "valor": 821.45,
+    "emissao": "2026-08-08",
+    "vencimento": "2026-09-05",
+    "status": "pago",
+    "data_pagamento": "2026-09-02"
+  },
+  {
+    "id": "T0040",
+    "cliente_id": "C012",
+    "valor": 4392.73,
+    "emissao": "2026-09-10",
+    "vencimento": "2026-10-08",
+    "status": "pago",
+    "data_pagamento": "2026-10-08"
+  },
+  {
+    "id": "T0041",
+    "cliente_id": "C013",
+    "valor": 1066.26,
+    "emissao": "2026-08-09",
+    "vencimento": "2026-09-06",
+    "status": "vencido",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0042",
+    "cliente_id": "C013",
+    "valor": 1125.91,
+    "emissao": "2026-09-03",
+    "vencimento": "2026-10-01",
+    "status": "vencido",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0043",
+    "cliente_id": "C013",
+    "valor": 1135.38,
+    "emissao": "2026-10-29",
+    "vencimento": "2026-11-26",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0044",
+    "cliente_id": "C014",
+    "valor": 3146.62,
+    "emissao": "2026-08-13",
+    "vencimento": "2026-09-10",
+    "status": "vencido",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0045",
+    "cliente_id": "C014",
+    "valor": 1417.49,
+    "emissao": "2026-09-19",
+    "vencimento": "2026-10-17",
+    "status": "vencido",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0046",
+    "cliente_id": "C014",
+    "valor": 3275.24,
+    "emissao": "2026-07-24",
+    "vencimento": "2026-08-21",
+    "status": "pago",
+    "data_pagamento": "2026-08-23"
+  },
+  {
+    "id": "T0047",
+    "cliente_id": "C014",
+    "valor": 3920.23,
+    "emissao": "2026-10-28",
+    "vencimento": "2026-11-25",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0048",
+    "cliente_id": "C014",
+    "valor": 1218.25,
+    "emissao": "2026-10-04",
+    "vencimento": "2026-11-01",
+    "status": "pago",
+    "data_pagamento": "2026-11-03"
+  },
+  {
+    "id": "T0049",
+    "cliente_id": "C015",
+    "valor": 497.02,
+    "emissao": "2026-10-04",
+    "vencimento": "2026-11-01",
+    "status": "pago",
+    "data_pagamento": "2026-11-01"
+  },
+  {
+    "id": "T0050",
+    "cliente_id": "C015",
+    "valor": 1745.87,
+    "emissao": "2026-09-11",
+    "vencimento": "2026-10-09",
+    "status": "pago",
+    "data_pagamento": "2026-10-09"
+  },
+  {
+    "id": "T0051",
+    "cliente_id": "C015",
+    "valor": 1544.41,
+    "emissao": "2026-07-26",
+    "vencimento": "2026-08-23",
+    "status": "pago",
+    "data_pagamento": "2026-08-20"
+  },
+  {
+    "id": "T0052",
+    "cliente_id": "C016",
+    "valor": 872.9,
+    "emissao": "2026-10-29",
+    "vencimento": "2026-11-26",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0053",
+    "cliente_id": "C016",
+    "valor": 1132.13,
+    "emissao": "2026-09-29",
+    "vencimento": "2026-10-27",
+    "status": "pago",
+    "data_pagamento": "2026-10-28"
+  },
+  {
+    "id": "T0054",
+    "cliente_id": "C016",
+    "valor": 844.45,
+    "emissao": "2026-10-28",
+    "vencimento": "2026-11-25",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0055",
+    "cliente_id": "C016",
+    "valor": 1817.32,
+    "emissao": "2026-09-07",
+    "vencimento": "2026-10-05",
+    "status": "pago",
+    "data_pagamento": "2026-10-06"
+  },
+  {
+    "id": "T0056",
+    "cliente_id": "C017",
+    "valor": 4087.97,
+    "emissao": "2026-09-13",
+    "vencimento": "2026-10-11",
+    "status": "pago",
+    "data_pagamento": "2026-10-11"
+  },
+  {
+    "id": "T0057",
+    "cliente_id": "C017",
+    "valor": 581.98,
+    "emissao": "2026-09-30",
+    "vencimento": "2026-10-28",
+    "status": "pago",
+    "data_pagamento": "2026-10-30"
+  },
+  {
+    "id": "T0058",
+    "cliente_id": "C018",
+    "valor": 2168.32,
+    "emissao": "2026-09-16",
+    "vencimento": "2026-10-14",
+    "status": "pago",
+    "data_pagamento": "2026-10-15"
+  },
+  {
+    "id": "T0059",
+    "cliente_id": "C018",
+    "valor": 1687.05,
+    "emissao": "2026-08-14",
+    "vencimento": "2026-09-11",
+    "status": "pago",
+    "data_pagamento": "2026-09-11"
+  },
+  {
+    "id": "T0060",
+    "cliente_id": "C018",
+    "valor": 4090.19,
+    "emissao": "2026-08-01",
+    "vencimento": "2026-08-29",
+    "status": "pago",
+    "data_pagamento": "2026-08-26"
+  },
+  {
+    "id": "T0061",
+    "cliente_id": "C019",
+    "valor": 2049.84,
+    "emissao": "2026-09-21",
+    "vencimento": "2026-10-19",
+    "status": "pago",
+    "data_pagamento": "2026-10-20"
+  },
+  {
+    "id": "T0062",
+    "cliente_id": "C019",
+    "valor": 921.88,
+    "emissao": "2026-08-23",
+    "vencimento": "2026-09-20",
+    "status": "pago",
+    "data_pagamento": "2026-09-22"
+  },
+  {
+    "id": "T0063",
+    "cliente_id": "C019",
+    "valor": 4255.49,
+    "emissao": "2026-08-08",
+    "vencimento": "2026-09-05",
+    "status": "pago",
+    "data_pagamento": "2026-09-05"
+  },
+  {
+    "id": "T0064",
+    "cliente_id": "C019",
+    "valor": 2733.33,
+    "emissao": "2026-08-15",
+    "vencimento": "2026-09-12",
+    "status": "pago",
+    "data_pagamento": "2026-09-14"
+  },
+  {
+    "id": "T0065",
+    "cliente_id": "C019",
+    "valor": 3818.27,
+    "emissao": "2026-08-23",
+    "vencimento": "2026-09-20",
+    "status": "pago",
+    "data_pagamento": "2026-09-21"
+  },
+  {
+    "id": "T0066",
+    "cliente_id": "C020",
+    "valor": 2777.94,
+    "emissao": "2026-07-24",
+    "vencimento": "2026-08-21",
+    "status": "pago",
+    "data_pagamento": "2026-08-22"
+  },
+  {
+    "id": "T0067",
+    "cliente_id": "C020",
+    "valor": 2211.32,
+    "emissao": "2026-09-03",
+    "vencimento": "2026-10-01",
+    "status": "pago",
+    "data_pagamento": "2026-10-01"
+  },
+  {
+    "id": "T0068",
+    "cliente_id": "C020",
+    "valor": 2340.06,
+    "emissao": "2026-08-28",
+    "vencimento": "2026-09-25",
+    "status": "pago",
+    "data_pagamento": "2026-09-25"
+  },
+  {
+    "id": "T0069",
+    "cliente_id": "C020",
+    "valor": 747.66,
+    "emissao": "2026-08-09",
+    "vencimento": "2026-09-06",
+    "status": "pago",
+    "data_pagamento": "2026-09-03"
+  },
+  {
+    "id": "T0070",
+    "cliente_id": "C020",
+    "valor": 2995.06,
+    "emissao": "2026-08-09",
+    "vencimento": "2026-09-06",
+    "status": "pago",
+    "data_pagamento": "2026-09-07"
+  },
+  {
+    "id": "T0071",
+    "cliente_id": "C021",
+    "valor": 1672.72,
+    "emissao": "2026-08-07",
+    "vencimento": "2026-09-04",
+    "status": "pago",
+    "data_pagamento": "2026-09-04"
+  },
+  {
+    "id": "T0072",
+    "cliente_id": "C021",
+    "valor": 500.14,
+    "emissao": "2026-10-14",
+    "vencimento": "2026-11-11",
+    "status": "pago",
+    "data_pagamento": "2026-11-11"
+  },
+  {
+    "id": "T0073",
+    "cliente_id": "C021",
+    "valor": 2906.22,
+    "emissao": "2026-09-02",
+    "vencimento": "2026-09-30",
+    "status": "pago",
+    "data_pagamento": "2026-09-30"
+  },
+  {
+    "id": "T0074",
+    "cliente_id": "C022",
+    "valor": 3255.05,
+    "emissao": "2026-08-02",
+    "vencimento": "2026-08-30",
+    "status": "pago",
+    "data_pagamento": "2026-09-01"
+  },
+  {
+    "id": "T0075",
+    "cliente_id": "C022",
+    "valor": 1400.34,
+    "emissao": "2026-09-11",
+    "vencimento": "2026-10-09",
+    "status": "pago",
+    "data_pagamento": "2026-10-09"
+  },
+  {
+    "id": "T0076",
+    "cliente_id": "C022",
+    "valor": 3927.81,
+    "emissao": "2026-07-28",
+    "vencimento": "2026-08-25",
+    "status": "pago",
+    "data_pagamento": "2026-08-25"
+  },
+  {
+    "id": "T0077",
+    "cliente_id": "C023",
+    "valor": 3696.85,
+    "emissao": "2026-10-08",
+    "vencimento": "2026-11-05",
+    "status": "vencido",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0078",
+    "cliente_id": "C023",
+    "valor": 2304.65,
+    "emissao": "2026-08-27",
+    "vencimento": "2026-09-24",
+    "status": "pago",
+    "data_pagamento": "2026-09-21"
+  },
+  {
+    "id": "T0079",
+    "cliente_id": "C023",
+    "valor": 4161.63,
+    "emissao": "2026-10-01",
+    "vencimento": "2026-10-29",
+    "status": "pago",
+    "data_pagamento": "2026-10-29"
+  },
+  {
+    "id": "T0080",
+    "cliente_id": "C024",
+    "valor": 2577.64,
+    "emissao": "2026-08-08",
+    "vencimento": "2026-09-05",
+    "status": "pago",
+    "data_pagamento": "2026-09-02"
+  },
+  {
+    "id": "T0081",
+    "cliente_id": "C024",
+    "valor": 1700.92,
+    "emissao": "2026-08-17",
+    "vencimento": "2026-09-14",
+    "status": "pago",
+    "data_pagamento": "2026-09-16"
+  },
+  {
+    "id": "T0082",
+    "cliente_id": "C024",
+    "valor": 3741.53,
+    "emissao": "2026-08-15",
+    "vencimento": "2026-09-12",
+    "status": "pago",
+    "data_pagamento": "2026-09-09"
+  },
+  {
+    "id": "T0083",
+    "cliente_id": "C024",
+    "valor": 3805.33,
+    "emissao": "2026-09-08",
+    "vencimento": "2026-10-06",
+    "status": "pago",
+    "data_pagamento": "2026-10-03"
+  },
+  {
+    "id": "T0084",
+    "cliente_id": "C024",
+    "valor": 4078.55,
+    "emissao": "2026-09-05",
+    "vencimento": "2026-10-03",
+    "status": "pago",
+    "data_pagamento": "2026-10-05"
+  },
+  {
+    "id": "T0085",
+    "cliente_id": "C025",
+    "valor": 3014.41,
+    "emissao": "2026-07-17",
+    "vencimento": "2026-08-14",
+    "status": "pago",
+    "data_pagamento": "2026-08-11"
+  },
+  {
+    "id": "T0086",
+    "cliente_id": "C025",
+    "valor": 2969.67,
+    "emissao": "2026-08-31",
+    "vencimento": "2026-09-28",
+    "status": "pago",
+    "data_pagamento": "2026-09-29"
+  },
+  {
+    "id": "T0087",
+    "cliente_id": "C025",
+    "valor": 717.68,
+    "emissao": "2026-09-06",
+    "vencimento": "2026-10-04",
+    "status": "pago",
+    "data_pagamento": "2026-10-05"
+  },
+  {
+    "id": "T0088",
+    "cliente_id": "C026",
+    "valor": 4061.41,
+    "emissao": "2026-09-22",
+    "vencimento": "2026-10-20",
+    "status": "pago",
+    "data_pagamento": "2026-10-20"
+  },
+  {
+    "id": "T0089",
+    "cliente_id": "C026",
+    "valor": 1018.41,
+    "emissao": "2026-10-15",
+    "vencimento": "2026-11-12",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0090",
+    "cliente_id": "C026",
+    "valor": 3245.19,
+    "emissao": "2026-09-13",
+    "vencimento": "2026-10-11",
+    "status": "pago",
+    "data_pagamento": "2026-10-11"
+  },
+  {
+    "id": "T0091",
+    "cliente_id": "C026",
+    "valor": 2100.96,
+    "emissao": "2026-10-24",
+    "vencimento": "2026-11-21",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0092",
+    "cliente_id": "C027",
+    "valor": 655.29,
+    "emissao": "2026-09-09",
+    "vencimento": "2026-10-07",
+    "status": "pago",
+    "data_pagamento": "2026-10-09"
+  },
+  {
+    "id": "T0093",
+    "cliente_id": "C027",
+    "valor": 4109.84,
+    "emissao": "2026-09-13",
+    "vencimento": "2026-10-11",
+    "status": "pago",
+    "data_pagamento": "2026-10-08"
+  },
+  {
+    "id": "T0094",
+    "cliente_id": "C027",
+    "valor": 480.08,
+    "emissao": "2026-08-04",
+    "vencimento": "2026-09-01",
+    "status": "pago",
+    "data_pagamento": "2026-08-29"
+  },
+  {
+    "id": "T0095",
+    "cliente_id": "C027",
+    "valor": 2355.62,
+    "emissao": "2026-09-14",
+    "vencimento": "2026-10-12",
+    "status": "pago",
+    "data_pagamento": "2026-10-13"
+  },
+  {
+    "id": "T0096",
+    "cliente_id": "C027",
+    "valor": 3489.25,
+    "emissao": "2026-09-24",
+    "vencimento": "2026-10-22",
+    "status": "pago",
+    "data_pagamento": "2026-10-24"
+  },
+  {
+    "id": "T0097",
+    "cliente_id": "C028",
+    "valor": 1299.63,
+    "emissao": "2026-08-31",
+    "vencimento": "2026-09-28",
+    "status": "pago",
+    "data_pagamento": "2026-09-30"
+  },
+  {
+    "id": "T0098",
+    "cliente_id": "C028",
+    "valor": 519.0,
+    "emissao": "2026-08-31",
+    "vencimento": "2026-09-28",
+    "status": "pago",
+    "data_pagamento": "2026-09-29"
+  },
+  {
+    "id": "T0099",
+    "cliente_id": "C028",
+    "valor": 3184.48,
+    "emissao": "2026-08-08",
+    "vencimento": "2026-09-05",
+    "status": "pago",
+    "data_pagamento": "2026-09-07"
+  },
+  {
+    "id": "T0100",
+    "cliente_id": "C029",
+    "valor": 4420.96,
+    "emissao": "2026-10-16",
+    "vencimento": "2026-11-13",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0101",
+    "cliente_id": "C029",
+    "valor": 510.56,
+    "emissao": "2026-08-25",
+    "vencimento": "2026-09-22",
+    "status": "pago",
+    "data_pagamento": "2026-09-24"
+  },
+  {
+    "id": "T0102",
+    "cliente_id": "C029",
+    "valor": 2714.01,
+    "emissao": "2026-08-18",
+    "vencimento": "2026-09-15",
+    "status": "pago",
+    "data_pagamento": "2026-09-15"
+  },
+  {
+    "id": "T0103",
+    "cliente_id": "C029",
+    "valor": 3035.27,
+    "emissao": "2026-10-22",
+    "vencimento": "2026-11-19",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0104",
+    "cliente_id": "C029",
+    "valor": 3954.09,
+    "emissao": "2026-10-15",
+    "vencimento": "2026-11-12",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0105",
+    "cliente_id": "C030",
+    "valor": 1742.15,
+    "emissao": "2026-09-14",
+    "vencimento": "2026-10-12",
+    "status": "pago",
+    "data_pagamento": "2026-10-14"
+  },
+  {
+    "id": "T0106",
+    "cliente_id": "C030",
+    "valor": 1783.75,
+    "emissao": "2026-09-21",
+    "vencimento": "2026-10-19",
+    "status": "pago",
+    "data_pagamento": "2026-10-21"
+  },
+  {
+    "id": "T0107",
+    "cliente_id": "C030",
+    "valor": 3483.24,
+    "emissao": "2026-09-27",
+    "vencimento": "2026-10-25",
+    "status": "pago",
+    "data_pagamento": "2026-10-27"
+  },
+  {
+    "id": "T0108",
+    "cliente_id": "C030",
+    "valor": 3823.13,
+    "emissao": "2026-09-30",
+    "vencimento": "2026-10-28",
+    "status": "pago",
+    "data_pagamento": "2026-10-30"
+  },
+  {
+    "id": "T0109",
+    "cliente_id": "C031",
+    "valor": 1319.31,
+    "emissao": "2026-09-18",
+    "vencimento": "2026-10-16",
+    "status": "pago",
+    "data_pagamento": "2026-10-16"
+  },
+  {
+    "id": "T0110",
+    "cliente_id": "C031",
+    "valor": 4324.87,
+    "emissao": "2026-07-25",
+    "vencimento": "2026-08-22",
+    "status": "pago",
+    "data_pagamento": "2026-08-22"
+  },
+  {
+    "id": "T0111",
+    "cliente_id": "C032",
+    "valor": 3840.84,
+    "emissao": "2026-10-09",
+    "vencimento": "2026-11-06",
+    "status": "vencido",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0112",
+    "cliente_id": "C032",
+    "valor": 1378.03,
+    "emissao": "2026-10-13",
+    "vencimento": "2026-11-10",
+    "status": "pago",
+    "data_pagamento": "2026-11-12"
+  },
+  {
+    "id": "T0113",
+    "cliente_id": "C032",
+    "valor": 869.0,
+    "emissao": "2026-08-08",
+    "vencimento": "2026-09-05",
+    "status": "pago",
+    "data_pagamento": "2026-09-05"
+  },
+  {
+    "id": "T0114",
+    "cliente_id": "C033",
+    "valor": 1912.47,
+    "emissao": "2026-07-26",
+    "vencimento": "2026-08-23",
+    "status": "pago",
+    "data_pagamento": "2026-08-20"
+  },
+  {
+    "id": "T0115",
+    "cliente_id": "C033",
+    "valor": 4351.31,
+    "emissao": "2026-08-16",
+    "vencimento": "2026-09-13",
+    "status": "pago",
+    "data_pagamento": "2026-09-13"
+  },
+  {
+    "id": "T0116",
+    "cliente_id": "C033",
+    "valor": 3759.13,
+    "emissao": "2026-07-25",
+    "vencimento": "2026-08-22",
+    "status": "pago",
+    "data_pagamento": "2026-08-23"
+  },
+  {
+    "id": "T0117",
+    "cliente_id": "C033",
+    "valor": 2772.61,
+    "emissao": "2026-10-19",
+    "vencimento": "2026-11-16",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0118",
+    "cliente_id": "C034",
+    "valor": 4260.03,
+    "emissao": "2026-09-17",
+    "vencimento": "2026-10-15",
+    "status": "vencido",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0119",
+    "cliente_id": "C034",
+    "valor": 2827.6,
+    "emissao": "2026-10-23",
+    "vencimento": "2026-11-20",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0120",
+    "cliente_id": "C034",
+    "valor": 2971.69,
+    "emissao": "2026-07-18",
+    "vencimento": "2026-08-15",
+    "status": "pago",
+    "data_pagamento": "2026-08-15"
+  },
+  {
+    "id": "T0121",
+    "cliente_id": "C034",
+    "valor": 3567.17,
+    "emissao": "2026-08-04",
+    "vencimento": "2026-09-01",
+    "status": "pago",
+    "data_pagamento": "2026-08-29"
+  },
+  {
+    "id": "T0122",
+    "cliente_id": "C034",
+    "valor": 896.33,
+    "emissao": "2026-07-21",
+    "vencimento": "2026-08-18",
+    "status": "pago",
+    "data_pagamento": "2026-08-15"
+  },
+  {
+    "id": "T0123",
+    "cliente_id": "C035",
+    "valor": 2156.35,
+    "emissao": "2026-10-11",
+    "vencimento": "2026-11-08",
+    "status": "vencido",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0124",
+    "cliente_id": "C035",
+    "valor": 2474.44,
+    "emissao": "2026-10-24",
+    "vencimento": "2026-11-21",
+    "status": "aberto",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0125",
+    "cliente_id": "C035",
+    "valor": 451.87,
+    "emissao": "2026-09-19",
+    "vencimento": "2026-10-17",
+    "status": "pago",
+    "data_pagamento": "2026-10-19"
+  },
+  {
+    "id": "T0126",
+    "cliente_id": "C035",
+    "valor": 2409.83,
+    "emissao": "2026-07-19",
+    "vencimento": "2026-08-16",
+    "status": "pago",
+    "data_pagamento": "2026-08-18"
+  },
+  {
+    "id": "T0127",
+    "cliente_id": "C036",
+    "valor": 1027.26,
+    "emissao": "2026-09-18",
+    "vencimento": "2026-10-16",
+    "status": "vencido",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0128",
+    "cliente_id": "C036",
+    "valor": 2539.16,
+    "emissao": "2026-08-19",
+    "vencimento": "2026-09-16",
+    "status": "vencido",
+    "data_pagamento": null
+  },
+  {
+    "id": "T0129",
+    "cliente_id": "C036",
+    "valor": 2925.24,
+    "emissao": "2026-09-28",
+    "vencimento": "2026-10-26",
+    "status": "pago",
+    "data_pagamento": "2026-10-23"
+  },
+  {
+    "id": "T0130",
+    "cliente_id": "C036",
+    "valor": 2382.34,
+    "emissao": "2026-07-25",
+    "vencimento": "2026-08-22",
+    "status": "pago",
+    "data_pagamento": "2026-08-24"
+  },
+  {
+    "id": "T0131",
+    "cliente_id": "C036",
+    "valor": 3397.21,
+    "emissao": "2026-07-19",
+    "vencimento": "2026-08-16",
+    "status": "pago",
+    "data_pagamento": "2026-08-17"
+  },
+  {
+    "id": "T0132",
+    "cliente_id": "C006",
+    "valor": 2340.0,
+    "emissao": "2026-10-02",
+    "vencimento": "2026-10-30",
+    "status": "aberto",
+    "data_pagamento": null
+  }
+]

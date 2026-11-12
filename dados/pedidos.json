@@ -1,0 +1,3302 @@
+[
+  {
+    "numero": 1001,
+    "cliente_id": "C016",
+    "vendedor_id": "V04",
+    "canal_origem": "email",
+    "criado_em": "2026-10-21T10:48",
+    "itens": [
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 8,
+        "preco_unitario": 36.0
+      }
+    ],
+    "valor_total": 288.0,
+    "comissao_valor": 10.08,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1002,
+    "cliente_id": "C025",
+    "vendedor_id": "V01",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-21T12:51",
+    "itens": [
+      {
+        "produto_id": "P01",
+        "descricao": "Detergente neutro concentrado 5L",
+        "quantidade": 3,
+        "preco_unitario": 42.9
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 8,
+        "preco_unitario": 49.9
+      },
+      {
+        "produto_id": "P06",
+        "descricao": "Papel toalha interfolha (cx 1000 fl)",
+        "quantidade": 4,
+        "preco_unitario": 54.0
+      }
+    ],
+    "valor_total": 743.9,
+    "comissao_valor": 22.32,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1003,
+    "cliente_id": "C018",
+    "vendedor_id": "V06",
+    "canal_origem": "telefone",
+    "criado_em": "2026-10-21T08:15",
+    "itens": [
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 4,
+        "preco_unitario": 31.5
+      }
+    ],
+    "valor_total": 126.0,
+    "comissao_valor": 3.78,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1004,
+    "cliente_id": "C036",
+    "vendedor_id": "V06",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-21T14:28",
+    "itens": [
+      {
+        "produto_id": "P12",
+        "descricao": "Secante para lava-louças 5L",
+        "quantidade": 11,
+        "preco_unitario": 88.0
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 12,
+        "preco_unitario": 49.9
+      }
+    ],
+    "valor_total": 1566.8,
+    "comissao_valor": 47.0,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1005,
+    "cliente_id": "C019",
+    "vendedor_id": "V01",
+    "canal_origem": "telefone",
+    "criado_em": "2026-10-21T16:23",
+    "itens": [
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 5,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 11,
+        "preco_unitario": 39.9
+      }
+    ],
+    "valor_total": 798.9,
+    "comissao_valor": 23.97,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1006,
+    "cliente_id": "C023",
+    "vendedor_id": null,
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-21T11:14",
+    "itens": [
+      {
+        "produto_id": "P12",
+        "descricao": "Secante para lava-louças 5L",
+        "quantidade": 12,
+        "preco_unitario": 88.0
+      },
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 8,
+        "preco_unitario": 31.5
+      },
+      {
+        "produto_id": "P06",
+        "descricao": "Papel toalha interfolha (cx 1000 fl)",
+        "quantidade": 5,
+        "preco_unitario": 54.0
+      },
+      {
+        "produto_id": "P10",
+        "descricao": "Luva nitrílica (cx 100)",
+        "quantidade": 5,
+        "preco_unitario": 45.0
+      }
+    ],
+    "valor_total": 1803.0,
+    "comissao_valor": 45.08,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": "pedido veio por áudio, vendedor não identificado"
+  },
+  {
+    "numero": 1007,
+    "cliente_id": "C021",
+    "vendedor_id": "V03",
+    "canal_origem": "telefone",
+    "criado_em": "2026-10-21T18:11",
+    "itens": [
+      {
+        "produto_id": "P12",
+        "descricao": "Secante para lava-louças 5L",
+        "quantidade": 9,
+        "preco_unitario": 88.0
+      }
+    ],
+    "valor_total": 792.0,
+    "comissao_valor": 19.8,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1008,
+    "cliente_id": "C034",
+    "vendedor_id": "V04",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-22T11:00",
+    "itens": [
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 4,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 6,
+        "preco_unitario": 39.9
+      },
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 3,
+        "preco_unitario": 36.0
+      }
+    ],
+    "valor_total": 621.4,
+    "comissao_valor": 21.75,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1009,
+    "cliente_id": "C018",
+    "vendedor_id": "V06",
+    "canal_origem": "telefone",
+    "criado_em": "2026-10-22T11:44",
+    "itens": [
+      {
+        "produto_id": "P01",
+        "descricao": "Detergente neutro concentrado 5L",
+        "quantidade": 9,
+        "preco_unitario": 42.9
+      }
+    ],
+    "valor_total": 386.1,
+    "comissao_valor": 11.58,
+    "status": "cancelado",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1010,
+    "cliente_id": "C007",
+    "vendedor_id": "V01",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-22T14:30",
+    "itens": [
+      {
+        "produto_id": "P10",
+        "descricao": "Luva nitrílica (cx 100)",
+        "quantidade": 5,
+        "preco_unitario": 45.0
+      }
+    ],
+    "valor_total": 225.0,
+    "comissao_valor": 6.75,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1011,
+    "cliente_id": "C004",
+    "vendedor_id": "V04",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-22T16:40",
+    "itens": [
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 7,
+        "preco_unitario": 49.9
+      },
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 8,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 2,
+        "preco_unitario": 29.9
+      }
+    ],
+    "valor_total": 957.1,
+    "comissao_valor": 33.5,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1012,
+    "cliente_id": "C010",
+    "vendedor_id": "V04",
+    "canal_origem": "telefone",
+    "criado_em": "2026-10-22T16:50",
+    "itens": [
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 9,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 7,
+        "preco_unitario": 39.9
+      },
+      {
+        "produto_id": "P12",
+        "descricao": "Secante para lava-louças 5L",
+        "quantidade": 10,
+        "preco_unitario": 88.0
+      }
+    ],
+    "valor_total": 1775.8,
+    "comissao_valor": 62.15,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1013,
+    "cliente_id": "C025",
+    "vendedor_id": "V01",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-22T16:47",
+    "itens": [
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 120,
+        "preco_unitario": 49.9
+      },
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 10,
+        "preco_unitario": 36.0
+      },
+      {
+        "produto_id": "P10",
+        "descricao": "Luva nitrílica (cx 100)",
+        "quantidade": 10,
+        "preco_unitario": 45.0
+      },
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 1,
+        "preco_unitario": 72.0
+      }
+    ],
+    "valor_total": 6870.0,
+    "comissao_valor": 33.95,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": "cliente pediu 12, conferir"
+  },
+  {
+    "numero": 1014,
+    "cliente_id": "C014",
+    "vendedor_id": "V02",
+    "canal_origem": "telefone",
+    "criado_em": "2026-10-22T08:10",
+    "itens": [
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 4,
+        "preco_unitario": 29.9
+      },
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 3,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 9,
+        "preco_unitario": 18.9
+      }
+    ],
+    "valor_total": 495.2,
+    "comissao_valor": 14.86,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1015,
+    "cliente_id": "C031",
+    "vendedor_id": "V01",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-23T14:04",
+    "itens": [
+      {
+        "produto_id": "P01",
+        "descricao": "Detergente neutro concentrado 5L",
+        "quantidade": 12,
+        "preco_unitario": 42.9
+      },
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 5,
+        "preco_unitario": 39.9
+      },
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 12,
+        "preco_unitario": 36.0
+      }
+    ],
+    "valor_total": 1146.3,
+    "comissao_valor": 34.39,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1016,
+    "cliente_id": "C013",
+    "vendedor_id": "V01",
+    "canal_origem": "email",
+    "criado_em": "2026-10-23T09:50",
+    "itens": [
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 5,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 3,
+        "preco_unitario": 31.5
+      },
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 2,
+        "preco_unitario": 39.9
+      },
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 1,
+        "preco_unitario": 18.9
+      }
+    ],
+    "valor_total": 535.7,
+    "comissao_valor": 16.07,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1017,
+    "cliente_id": "C019",
+    "vendedor_id": "V01",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-23T14:05",
+    "itens": [
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 5,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 9,
+        "preco_unitario": 49.9
+      },
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 9,
+        "preco_unitario": 36.0
+      },
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 8,
+        "preco_unitario": 72.0
+      }
+    ],
+    "valor_total": 1691.6,
+    "comissao_valor": 50.75,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1018,
+    "cliente_id": "C021",
+    "vendedor_id": "V03",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-23T07:48",
+    "itens": [
+      {
+        "produto_id": "P01",
+        "descricao": "Detergente neutro concentrado 5L",
+        "quantidade": 11,
+        "preco_unitario": 42.9
+      },
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 10,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 10,
+        "preco_unitario": 39.9
+      }
+    ],
+    "valor_total": 1555.9,
+    "comissao_valor": 38.9,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1019,
+    "cliente_id": "C003",
+    "vendedor_id": "V03",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-23T11:11",
+    "itens": [
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 11,
+        "preco_unitario": 49.9
+      },
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 8,
+        "preco_unitario": 31.5
+      }
+    ],
+    "valor_total": 800.9,
+    "comissao_valor": 20.02,
+    "status": "cancelado",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1020,
+    "cliente_id": "C032",
+    "vendedor_id": "V02",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-23T13:21",
+    "itens": [
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 6,
+        "preco_unitario": 49.9
+      }
+    ],
+    "valor_total": 299.4,
+    "comissao_valor": 8.98,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1021,
+    "cliente_id": "C011",
+    "vendedor_id": "V05",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-23T07:29",
+    "itens": [
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 11,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 7,
+        "preco_unitario": 49.9
+      },
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 9,
+        "preco_unitario": 36.0
+      }
+    ],
+    "valor_total": 1465.3,
+    "comissao_valor": 36.63,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1022,
+    "cliente_id": "C021",
+    "vendedor_id": "V03",
+    "canal_origem": "telefone",
+    "criado_em": "2026-10-23T07:42",
+    "itens": [
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 9,
+        "preco_unitario": 72.0
+      }
+    ],
+    "valor_total": 648.0,
+    "comissao_valor": 16.2,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1023,
+    "cliente_id": "C027",
+    "vendedor_id": "V03",
+    "canal_origem": "telefone",
+    "criado_em": "2026-10-23T12:39",
+    "itens": [
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 9,
+        "preco_unitario": 39.9
+      }
+    ],
+    "valor_total": 359.1,
+    "comissao_valor": 8.98,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1024,
+    "cliente_id": "C014",
+    "vendedor_id": "V02",
+    "canal_origem": "email",
+    "criado_em": "2026-10-24T08:01",
+    "itens": [
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 8,
+        "preco_unitario": 31.5
+      },
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 12,
+        "preco_unitario": 18.9
+      },
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 8,
+        "preco_unitario": 36.0
+      }
+    ],
+    "valor_total": 766.8,
+    "comissao_valor": 23.0,
+    "status": "cancelado",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1025,
+    "cliente_id": "C011",
+    "vendedor_id": "V05",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-26T08:29",
+    "itens": [
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 7,
+        "preco_unitario": 31.5
+      },
+      {
+        "produto_id": "P01",
+        "descricao": "Detergente neutro concentrado 5L",
+        "quantidade": 2,
+        "preco_unitario": 42.9
+      },
+      {
+        "produto_id": "P12",
+        "descricao": "Secante para lava-louças 5L",
+        "quantidade": 4,
+        "preco_unitario": 88.0
+      }
+    ],
+    "valor_total": 658.3,
+    "comissao_valor": 16.46,
+    "status": "cancelado",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1026,
+    "cliente_id": "C032",
+    "vendedor_id": "V02",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-26T14:35",
+    "itens": [
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 8,
+        "preco_unitario": 31.5
+      },
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 8,
+        "preco_unitario": 36.0
+      },
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 4,
+        "preco_unitario": 72.0
+      }
+    ],
+    "valor_total": 828.0,
+    "comissao_valor": 24.84,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1027,
+    "cliente_id": "C033",
+    "vendedor_id": "V03",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-26T15:17",
+    "itens": [
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 7,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 6,
+        "preco_unitario": 36.0
+      }
+    ],
+    "valor_total": 695.5,
+    "comissao_valor": 17.39,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1028,
+    "cliente_id": "C020",
+    "vendedor_id": "V02",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-26T13:29",
+    "itens": [
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 6,
+        "preco_unitario": 18.9
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 6,
+        "preco_unitario": 49.9
+      },
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 9,
+        "preco_unitario": 31.5
+      },
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 9,
+        "preco_unitario": 29.9
+      }
+    ],
+    "valor_total": 965.4,
+    "comissao_valor": 28.96,
+    "status": "cancelado",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1029,
+    "cliente_id": "C016",
+    "vendedor_id": "V04",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-26T13:42",
+    "itens": [
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 12,
+        "preco_unitario": 39.9
+      },
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 8,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P01",
+        "descricao": "Detergente neutro concentrado 5L",
+        "quantidade": 12,
+        "preco_unitario": 42.9
+      },
+      {
+        "produto_id": "P06",
+        "descricao": "Papel toalha interfolha (cx 1000 fl)",
+        "quantidade": 7,
+        "preco_unitario": 54.0
+      }
+    ],
+    "valor_total": 1947.6,
+    "comissao_valor": 68.17,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1030,
+    "cliente_id": "C032",
+    "vendedor_id": "V02",
+    "canal_origem": "telefone",
+    "criado_em": "2026-10-26T16:21",
+    "itens": [
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 9,
+        "preco_unitario": 18.9
+      }
+    ],
+    "valor_total": 170.1,
+    "comissao_valor": 5.1,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1031,
+    "cliente_id": "C034",
+    "vendedor_id": "V04",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-27T16:44",
+    "itens": [
+      {
+        "produto_id": "P01",
+        "descricao": "Detergente neutro concentrado 5L",
+        "quantidade": 2,
+        "preco_unitario": 42.9
+      },
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 8,
+        "preco_unitario": 18.9
+      },
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 5,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 6,
+        "preco_unitario": 29.9
+      }
+    ],
+    "valor_total": 776.4,
+    "comissao_valor": 27.17,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1032,
+    "cliente_id": "C022",
+    "vendedor_id": "V04",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-27T17:43",
+    "itens": [
+      {
+        "produto_id": "P06",
+        "descricao": "Papel toalha interfolha (cx 1000 fl)",
+        "quantidade": 1,
+        "preco_unitario": 54.0
+      },
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 10,
+        "preco_unitario": 29.9
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 2,
+        "preco_unitario": 49.9
+      },
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 4,
+        "preco_unitario": 31.5
+      }
+    ],
+    "valor_total": 578.8,
+    "comissao_valor": 20.26,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1033,
+    "cliente_id": "C006",
+    "vendedor_id": "V06",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-27T07:20",
+    "itens": [
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 3,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 12,
+        "preco_unitario": 29.9
+      },
+      {
+        "produto_id": "P12",
+        "descricao": "Secante para lava-louças 5L",
+        "quantidade": 5,
+        "preco_unitario": 88.0
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 1,
+        "preco_unitario": 49.9
+      }
+    ],
+    "valor_total": 1054.2,
+    "comissao_valor": 31.63,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1034,
+    "cliente_id": "C023",
+    "vendedor_id": "V05",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-27T17:50",
+    "itens": [
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 9,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 7,
+        "preco_unitario": 18.9
+      },
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 10,
+        "preco_unitario": 39.9
+      }
+    ],
+    "valor_total": 1179.3,
+    "comissao_valor": 29.48,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1035,
+    "cliente_id": "C006",
+    "vendedor_id": "V06",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-27T17:16",
+    "itens": [
+      {
+        "produto_id": "P10",
+        "descricao": "Luva nitrílica (cx 100)",
+        "quantidade": 10,
+        "preco_unitario": 45.0
+      },
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 3,
+        "preco_unitario": 29.9
+      },
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 4,
+        "preco_unitario": 39.9
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 8,
+        "preco_unitario": 49.9
+      }
+    ],
+    "valor_total": 1098.5,
+    "comissao_valor": 32.95,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1036,
+    "cliente_id": "C019",
+    "vendedor_id": "V01",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-28T11:40",
+    "itens": [
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 6,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 10,
+        "preco_unitario": 49.9
+      }
+    ],
+    "valor_total": 910.0,
+    "comissao_valor": 27.3,
+    "status": "cancelado",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1037,
+    "cliente_id": "C030",
+    "vendedor_id": "V06",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-28T16:22",
+    "itens": [
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 2,
+        "preco_unitario": 39.9
+      },
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 4,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 7,
+        "preco_unitario": 49.9
+      }
+    ],
+    "valor_total": 717.1,
+    "comissao_valor": 21.51,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1038,
+    "cliente_id": "C002",
+    "vendedor_id": "V02",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-28T10:38",
+    "itens": [
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 10,
+        "preco_unitario": 36.0
+      },
+      {
+        "produto_id": "P01",
+        "descricao": "Detergente neutro concentrado 5L",
+        "quantidade": 12,
+        "preco_unitario": 42.9
+      },
+      {
+        "produto_id": "P10",
+        "descricao": "Luva nitrílica (cx 100)",
+        "quantidade": 8,
+        "preco_unitario": 45.0
+      },
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 5,
+        "preco_unitario": 29.9
+      }
+    ],
+    "valor_total": 1384.3,
+    "comissao_valor": 41.53,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1039,
+    "cliente_id": "C013",
+    "vendedor_id": "V01",
+    "canal_origem": "telefone",
+    "criado_em": "2026-10-28T17:02",
+    "itens": [
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 11,
+        "preco_unitario": 29.9
+      },
+      {
+        "produto_id": "P12",
+        "descricao": "Secante para lava-louças 5L",
+        "quantidade": 2,
+        "preco_unitario": 88.0
+      },
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 11,
+        "preco_unitario": 18.9
+      }
+    ],
+    "valor_total": 712.8,
+    "comissao_valor": 21.38,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1040,
+    "cliente_id": "C003",
+    "vendedor_id": "V03",
+    "canal_origem": "telefone",
+    "criado_em": "2026-10-28T13:11",
+    "itens": [
+      {
+        "produto_id": "P12",
+        "descricao": "Secante para lava-louças 5L",
+        "quantidade": 5,
+        "preco_unitario": 88.0
+      },
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 6,
+        "preco_unitario": 18.9
+      },
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 12,
+        "preco_unitario": 68.5
+      }
+    ],
+    "valor_total": 1375.4,
+    "comissao_valor": 34.38,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1041,
+    "cliente_id": "C024",
+    "vendedor_id": "V06",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-28T08:29",
+    "itens": [
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 5,
+        "preco_unitario": 18.9
+      },
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 12,
+        "preco_unitario": 36.0
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 6,
+        "preco_unitario": 49.9
+      }
+    ],
+    "valor_total": 825.9,
+    "comissao_valor": 24.78,
+    "status": "cancelado",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1042,
+    "cliente_id": "C015",
+    "vendedor_id": "V03",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-28T14:23",
+    "itens": [
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 1,
+        "preco_unitario": 31.5
+      },
+      {
+        "produto_id": "P06",
+        "descricao": "Papel toalha interfolha (cx 1000 fl)",
+        "quantidade": 5,
+        "preco_unitario": 54.0
+      },
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 9,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 2,
+        "preco_unitario": 72.0
+      }
+    ],
+    "valor_total": 1062.0,
+    "comissao_valor": 26.55,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1043,
+    "cliente_id": "C025",
+    "vendedor_id": "V01",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-28T15:20",
+    "itens": [
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 8,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 1,
+        "preco_unitario": 29.9
+      },
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 10,
+        "preco_unitario": 39.9
+      }
+    ],
+    "valor_total": 976.9,
+    "comissao_valor": 29.31,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1044,
+    "cliente_id": "C030",
+    "vendedor_id": "V06",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-29T11:31",
+    "itens": [
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 3,
+        "preco_unitario": 29.9
+      },
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 1,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 1,
+        "preco_unitario": 68.5
+      }
+    ],
+    "valor_total": 230.2,
+    "comissao_valor": 6.91,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1045,
+    "cliente_id": "C035",
+    "vendedor_id": "V05",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-29T18:44",
+    "itens": [
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 6,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 11,
+        "preco_unitario": 49.9
+      }
+    ],
+    "valor_total": 980.9,
+    "comissao_valor": 24.52,
+    "status": "cancelado",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1046,
+    "cliente_id": "C010",
+    "vendedor_id": "V04",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-29T10:28",
+    "itens": [
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 5,
+        "preco_unitario": 29.9
+      },
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 1,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 12,
+        "preco_unitario": 49.9
+      },
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 6,
+        "preco_unitario": 72.0
+      }
+    ],
+    "valor_total": 1248.8,
+    "comissao_valor": 43.71,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1047,
+    "cliente_id": "C024",
+    "vendedor_id": "V06",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-29T15:57",
+    "itens": [
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 6,
+        "preco_unitario": 29.9
+      }
+    ],
+    "valor_total": 179.4,
+    "comissao_valor": 5.38,
+    "status": "cancelado",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1048,
+    "cliente_id": "C004",
+    "vendedor_id": "V04",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-29T17:38",
+    "itens": [
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 2,
+        "preco_unitario": 36.0
+      },
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 11,
+        "preco_unitario": 39.9
+      },
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 4,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 11,
+        "preco_unitario": 49.9
+      }
+    ],
+    "valor_total": 1333.8,
+    "comissao_valor": 46.68,
+    "status": "cancelado",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1049,
+    "cliente_id": "C016",
+    "vendedor_id": "V04",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-30T10:37",
+    "itens": [
+      {
+        "produto_id": "P10",
+        "descricao": "Luva nitrílica (cx 100)",
+        "quantidade": 2,
+        "preco_unitario": 45.0
+      },
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 9,
+        "preco_unitario": 39.9
+      }
+    ],
+    "valor_total": 449.1,
+    "comissao_valor": 15.72,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1050,
+    "cliente_id": "C022",
+    "vendedor_id": "V04",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-30T09:34",
+    "itens": [
+      {
+        "produto_id": "P10",
+        "descricao": "Luva nitrílica (cx 100)",
+        "quantidade": 5,
+        "preco_unitario": 45.0
+      },
+      {
+        "produto_id": "P01",
+        "descricao": "Detergente neutro concentrado 5L",
+        "quantidade": 3,
+        "preco_unitario": 42.9
+      }
+    ],
+    "valor_total": 353.7,
+    "comissao_valor": 12.38,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1051,
+    "cliente_id": "C008",
+    "vendedor_id": "V02",
+    "canal_origem": "email",
+    "criado_em": "2026-10-30T12:50",
+    "itens": [
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 1,
+        "preco_unitario": 18.9
+      }
+    ],
+    "valor_total": 18.9,
+    "comissao_valor": 0.57,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1052,
+    "cliente_id": "C021",
+    "vendedor_id": "V03",
+    "canal_origem": "telefone",
+    "criado_em": "2026-10-30T07:08",
+    "itens": [
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 5,
+        "preco_unitario": 18.9
+      }
+    ],
+    "valor_total": 94.5,
+    "comissao_valor": 2.36,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1053,
+    "cliente_id": "C008",
+    "vendedor_id": "V02",
+    "canal_origem": "telefone",
+    "criado_em": "2026-10-30T12:32",
+    "itens": [
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 8,
+        "preco_unitario": 49.9
+      }
+    ],
+    "valor_total": 399.2,
+    "comissao_valor": 11.98,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1054,
+    "cliente_id": "C033",
+    "vendedor_id": "V03",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-30T15:19",
+    "itens": [
+      {
+        "produto_id": "P10",
+        "descricao": "Luva nitrílica (cx 100)",
+        "quantidade": 12,
+        "preco_unitario": 45.0
+      },
+      {
+        "produto_id": "P01",
+        "descricao": "Detergente neutro concentrado 5L",
+        "quantidade": 11,
+        "preco_unitario": 42.9
+      }
+    ],
+    "valor_total": 1011.9,
+    "comissao_valor": 25.3,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1055,
+    "cliente_id": "C004",
+    "vendedor_id": "V04",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-30T12:38",
+    "itens": [
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 12,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P12",
+        "descricao": "Secante para lava-louças 5L",
+        "quantidade": 8,
+        "preco_unitario": 88.0
+      },
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 2,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 2,
+        "preco_unitario": 49.9
+      }
+    ],
+    "valor_total": 1804.8,
+    "comissao_valor": 63.17,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1056,
+    "cliente_id": "C036",
+    "vendedor_id": "V06",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-31T16:27",
+    "itens": [
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 5,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P10",
+        "descricao": "Luva nitrílica (cx 100)",
+        "quantidade": 8,
+        "preco_unitario": 45.0
+      },
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 9,
+        "preco_unitario": 31.5
+      }
+    ],
+    "valor_total": 1003.5,
+    "comissao_valor": 30.11,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1057,
+    "cliente_id": "C036",
+    "vendedor_id": "V06",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-10-31T12:52",
+    "itens": [
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 4,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 7,
+        "preco_unitario": 49.9
+      }
+    ],
+    "valor_total": 637.3,
+    "comissao_valor": 19.12,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1058,
+    "cliente_id": "C021",
+    "vendedor_id": "V03",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-02T08:53",
+    "itens": [
+      {
+        "produto_id": "P06",
+        "descricao": "Papel toalha interfolha (cx 1000 fl)",
+        "quantidade": 3,
+        "preco_unitario": 54.0
+      },
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 11,
+        "preco_unitario": 29.9
+      },
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 8,
+        "preco_unitario": 36.0
+      },
+      {
+        "produto_id": "P12",
+        "descricao": "Secante para lava-louças 5L",
+        "quantidade": 2,
+        "preco_unitario": 88.0
+      }
+    ],
+    "valor_total": 954.9,
+    "comissao_valor": 23.87,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1059,
+    "cliente_id": "C007",
+    "vendedor_id": "V01",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-02T12:42",
+    "itens": [
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 10,
+        "preco_unitario": 18.9
+      },
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 9,
+        "preco_unitario": 31.5
+      },
+      {
+        "produto_id": "P01",
+        "descricao": "Detergente neutro concentrado 5L",
+        "quantidade": 9,
+        "preco_unitario": 42.9
+      }
+    ],
+    "valor_total": 858.6,
+    "comissao_valor": 25.76,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1060,
+    "cliente_id": "C028",
+    "vendedor_id": "V04",
+    "canal_origem": "telefone",
+    "criado_em": "2026-11-02T11:22",
+    "itens": [
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 10,
+        "preco_unitario": 36.0
+      }
+    ],
+    "valor_total": 360.0,
+    "comissao_valor": 12.6,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1061,
+    "cliente_id": "C014",
+    "vendedor_id": "V02",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-02T12:54",
+    "itens": [
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 4,
+        "preco_unitario": 29.9
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 2,
+        "preco_unitario": 49.9
+      }
+    ],
+    "valor_total": 219.4,
+    "comissao_valor": 6.58,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1062,
+    "cliente_id": "C018",
+    "vendedor_id": "V06",
+    "canal_origem": "email",
+    "criado_em": "2026-11-02T17:41",
+    "itens": [
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 10,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 10,
+        "preco_unitario": 31.5
+      }
+    ],
+    "valor_total": 1035.0,
+    "comissao_valor": 31.05,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1063,
+    "cliente_id": "C002",
+    "vendedor_id": "V02",
+    "canal_origem": "email",
+    "criado_em": "2026-11-03T07:11",
+    "itens": [
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 6,
+        "preco_unitario": 36.0
+      },
+      {
+        "produto_id": "P12",
+        "descricao": "Secante para lava-louças 5L",
+        "quantidade": 6,
+        "preco_unitario": 88.0
+      }
+    ],
+    "valor_total": 744.0,
+    "comissao_valor": 22.32,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1064,
+    "cliente_id": "C026",
+    "vendedor_id": "V02",
+    "canal_origem": "telefone",
+    "criado_em": "2026-11-03T17:01",
+    "itens": [
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 12,
+        "preco_unitario": 18.9
+      }
+    ],
+    "valor_total": 226.8,
+    "comissao_valor": 6.8,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1065,
+    "cliente_id": "C014",
+    "vendedor_id": "V02",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-03T16:38",
+    "itens": [
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 6,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 5,
+        "preco_unitario": 49.9
+      },
+      {
+        "produto_id": "P06",
+        "descricao": "Papel toalha interfolha (cx 1000 fl)",
+        "quantidade": 12,
+        "preco_unitario": 54.0
+      },
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 6,
+        "preco_unitario": 18.9
+      }
+    ],
+    "valor_total": 1442.9,
+    "comissao_valor": 43.29,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1066,
+    "cliente_id": "C010",
+    "vendedor_id": "V04",
+    "canal_origem": "telefone",
+    "criado_em": "2026-11-03T11:28",
+    "itens": [
+      {
+        "produto_id": "P10",
+        "descricao": "Luva nitrílica (cx 100)",
+        "quantidade": 11,
+        "preco_unitario": 45.0
+      },
+      {
+        "produto_id": "P01",
+        "descricao": "Detergente neutro concentrado 5L",
+        "quantidade": 2,
+        "preco_unitario": 42.9
+      }
+    ],
+    "valor_total": 580.8,
+    "comissao_valor": 20.33,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1067,
+    "cliente_id": "C029",
+    "vendedor_id": "V05",
+    "canal_origem": "telefone",
+    "criado_em": "2026-11-03T17:43",
+    "itens": [
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 6,
+        "preco_unitario": 36.0
+      },
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 7,
+        "preco_unitario": 39.9
+      },
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 2,
+        "preco_unitario": 31.5
+      },
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 5,
+        "preco_unitario": 68.5
+      }
+    ],
+    "valor_total": 900.8,
+    "comissao_valor": 22.52,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1068,
+    "cliente_id": "C020",
+    "vendedor_id": "V02",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-03T16:03",
+    "itens": [
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 7,
+        "preco_unitario": 39.9
+      }
+    ],
+    "valor_total": 279.3,
+    "comissao_valor": 8.38,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1069,
+    "cliente_id": "C014",
+    "vendedor_id": "V02",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-03T07:31",
+    "itens": [
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 6,
+        "preco_unitario": 36.0
+      },
+      {
+        "produto_id": "P12",
+        "descricao": "Secante para lava-louças 5L",
+        "quantidade": 2,
+        "preco_unitario": 88.0
+      }
+    ],
+    "valor_total": 392.0,
+    "comissao_valor": 11.76,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1070,
+    "cliente_id": "C025",
+    "vendedor_id": "V01",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-04T08:25",
+    "itens": [
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 11,
+        "preco_unitario": 31.5
+      },
+      {
+        "produto_id": "P12",
+        "descricao": "Secante para lava-louças 5L",
+        "quantidade": 6,
+        "preco_unitario": 88.0
+      }
+    ],
+    "valor_total": 874.5,
+    "comissao_valor": 26.23,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1071,
+    "cliente_id": "C028",
+    "vendedor_id": "V04",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-04T12:36",
+    "itens": [
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 2,
+        "preco_unitario": 49.9
+      }
+    ],
+    "valor_total": 99.8,
+    "comissao_valor": 3.49,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1072,
+    "cliente_id": "C027",
+    "vendedor_id": "V03",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-04T14:53",
+    "itens": [
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 6,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 3,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P01",
+        "descricao": "Detergente neutro concentrado 5L",
+        "quantidade": 10,
+        "preco_unitario": 42.9
+      }
+    ],
+    "valor_total": 1056.0,
+    "comissao_valor": 26.4,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1073,
+    "cliente_id": "C006",
+    "vendedor_id": "V06",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-04T18:21",
+    "itens": [
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 9,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 2,
+        "preco_unitario": 39.9
+      },
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 7,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P10",
+        "descricao": "Luva nitrílica (cx 100)",
+        "quantidade": 5,
+        "preco_unitario": 45.0
+      }
+    ],
+    "valor_total": 1425.3,
+    "comissao_valor": 42.76,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1074,
+    "cliente_id": "C005",
+    "vendedor_id": "V05",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-04T10:57",
+    "itens": [
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 9,
+        "preco_unitario": 31.5
+      }
+    ],
+    "valor_total": 283.5,
+    "comissao_valor": 7.09,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1075,
+    "cliente_id": "C010",
+    "vendedor_id": "V04",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-04T09:38",
+    "itens": [
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 5,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 4,
+        "preco_unitario": 18.9
+      }
+    ],
+    "valor_total": 418.1,
+    "comissao_valor": 14.63,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1076,
+    "cliente_id": "C032",
+    "vendedor_id": "V02",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-05T08:30",
+    "itens": [
+      {
+        "produto_id": "P10",
+        "descricao": "Luva nitrílica (cx 100)",
+        "quantidade": 11,
+        "preco_unitario": 45.0
+      },
+      {
+        "produto_id": "P12",
+        "descricao": "Secante para lava-louças 5L",
+        "quantidade": 6,
+        "preco_unitario": 88.0
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 3,
+        "preco_unitario": 49.9
+      },
+      {
+        "produto_id": "P06",
+        "descricao": "Papel toalha interfolha (cx 1000 fl)",
+        "quantidade": 8,
+        "preco_unitario": 54.0
+      }
+    ],
+    "valor_total": 1604.7,
+    "comissao_valor": 48.14,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1077,
+    "cliente_id": "C018",
+    "vendedor_id": "V06",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-05T08:19",
+    "itens": [
+      {
+        "produto_id": "P06",
+        "descricao": "Papel toalha interfolha (cx 1000 fl)",
+        "quantidade": 9,
+        "preco_unitario": 54.0
+      }
+    ],
+    "valor_total": 486.0,
+    "comissao_valor": 14.58,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1078,
+    "cliente_id": "C004",
+    "vendedor_id": "V04",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-05T13:29",
+    "itens": [
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 10,
+        "preco_unitario": 36.0
+      },
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 10,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 9,
+        "preco_unitario": 29.9
+      }
+    ],
+    "valor_total": 1314.1,
+    "comissao_valor": 45.99,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1079,
+    "cliente_id": "C029",
+    "vendedor_id": "V05",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-05T09:03",
+    "itens": [
+      {
+        "produto_id": "P06",
+        "descricao": "Papel toalha interfolha (cx 1000 fl)",
+        "quantidade": 8,
+        "preco_unitario": 54.0
+      },
+      {
+        "produto_id": "P10",
+        "descricao": "Luva nitrílica (cx 100)",
+        "quantidade": 9,
+        "preco_unitario": 45.0
+      }
+    ],
+    "valor_total": 837.0,
+    "comissao_valor": 20.93,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1080,
+    "cliente_id": "C006",
+    "vendedor_id": "V06",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-05T14:33",
+    "itens": [
+      {
+        "produto_id": "P01",
+        "descricao": "Detergente neutro concentrado 5L",
+        "quantidade": 12,
+        "preco_unitario": 42.9
+      },
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 8,
+        "preco_unitario": 39.9
+      }
+    ],
+    "valor_total": 834.0,
+    "comissao_valor": 25.02,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1081,
+    "cliente_id": "C024",
+    "vendedor_id": "V06",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-05T07:50",
+    "itens": [
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 6,
+        "preco_unitario": 36.0
+      },
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 11,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 10,
+        "preco_unitario": 29.9
+      }
+    ],
+    "valor_total": 1307.0,
+    "comissao_valor": 39.21,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1082,
+    "cliente_id": "C022",
+    "vendedor_id": "V04",
+    "canal_origem": "email",
+    "criado_em": "2026-11-06T13:18",
+    "itens": [
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 11,
+        "preco_unitario": 31.5
+      }
+    ],
+    "valor_total": 346.5,
+    "comissao_valor": 12.13,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1083,
+    "cliente_id": "C010",
+    "vendedor_id": "V04",
+    "canal_origem": "email",
+    "criado_em": "2026-11-06T18:42",
+    "itens": [
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 6,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P10",
+        "descricao": "Luva nitrílica (cx 100)",
+        "quantidade": 5,
+        "preco_unitario": 45.0
+      },
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 11,
+        "preco_unitario": 18.9
+      }
+    ],
+    "valor_total": 843.9,
+    "comissao_valor": 29.54,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1084,
+    "cliente_id": "C006",
+    "vendedor_id": "V06",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-06T18:43",
+    "itens": [
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 3,
+        "preco_unitario": 31.5
+      },
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 11,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P06",
+        "descricao": "Papel toalha interfolha (cx 1000 fl)",
+        "quantidade": 12,
+        "preco_unitario": 54.0
+      }
+    ],
+    "valor_total": 1534.5,
+    "comissao_valor": 46.03,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1085,
+    "cliente_id": "C028",
+    "vendedor_id": "V04",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-06T14:12",
+    "itens": [
+      {
+        "produto_id": "P01",
+        "descricao": "Detergente neutro concentrado 5L",
+        "quantidade": 3,
+        "preco_unitario": 42.9
+      },
+      {
+        "produto_id": "P06",
+        "descricao": "Papel toalha interfolha (cx 1000 fl)",
+        "quantidade": 4,
+        "preco_unitario": 54.0
+      },
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 6,
+        "preco_unitario": 36.0
+      }
+    ],
+    "valor_total": 560.7,
+    "comissao_valor": 19.62,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1086,
+    "cliente_id": "C010",
+    "vendedor_id": "V04",
+    "canal_origem": "telefone",
+    "criado_em": "2026-11-06T15:49",
+    "itens": [
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 2,
+        "preco_unitario": 36.0
+      }
+    ],
+    "valor_total": 72.0,
+    "comissao_valor": 2.52,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1087,
+    "cliente_id": "C022",
+    "vendedor_id": "V04",
+    "canal_origem": "email",
+    "criado_em": "2026-11-07T09:53",
+    "itens": [
+      {
+        "produto_id": "P10",
+        "descricao": "Luva nitrílica (cx 100)",
+        "quantidade": 3,
+        "preco_unitario": 45.0
+      },
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 3,
+        "preco_unitario": 72.0
+      }
+    ],
+    "valor_total": 351.0,
+    "comissao_valor": 12.29,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1088,
+    "cliente_id": "C029",
+    "vendedor_id": "V05",
+    "canal_origem": "telefone",
+    "criado_em": "2026-11-09T17:46",
+    "itens": [
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 6,
+        "preco_unitario": 72.0
+      }
+    ],
+    "valor_total": 432.0,
+    "comissao_valor": 10.8,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1089,
+    "cliente_id": "C019",
+    "vendedor_id": "V01",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-09T16:28",
+    "itens": [
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 8,
+        "preco_unitario": 39.9
+      },
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 4,
+        "preco_unitario": 31.5
+      },
+      {
+        "produto_id": "P12",
+        "descricao": "Secante para lava-louças 5L",
+        "quantidade": 6,
+        "preco_unitario": 88.0
+      },
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 11,
+        "preco_unitario": 36.0
+      }
+    ],
+    "valor_total": 1369.2,
+    "comissao_valor": 41.08,
+    "status": "em_rota",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1090,
+    "cliente_id": "C025",
+    "vendedor_id": "V01",
+    "canal_origem": "telefone",
+    "criado_em": "2026-11-09T12:35",
+    "itens": [
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 5,
+        "preco_unitario": 18.9
+      },
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 1,
+        "preco_unitario": 39.9
+      },
+      {
+        "produto_id": "P10",
+        "descricao": "Luva nitrílica (cx 100)",
+        "quantidade": 11,
+        "preco_unitario": 45.0
+      },
+      {
+        "produto_id": "P12",
+        "descricao": "Secante para lava-louças 5L",
+        "quantidade": 8,
+        "preco_unitario": 88.0
+      }
+    ],
+    "valor_total": 1333.4,
+    "comissao_valor": 40.0,
+    "status": "aguardando_liberacao",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1091,
+    "cliente_id": "C008",
+    "vendedor_id": "V02",
+    "canal_origem": "telefone",
+    "criado_em": "2026-11-09T13:05",
+    "itens": [
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 8,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 9,
+        "preco_unitario": 18.9
+      },
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 3,
+        "preco_unitario": 36.0
+      }
+    ],
+    "valor_total": 826.1,
+    "comissao_valor": 24.78,
+    "status": "aguardando_liberacao",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1092,
+    "cliente_id": "C023",
+    "vendedor_id": "V05",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-09T13:32",
+    "itens": [
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 1,
+        "preco_unitario": 72.0
+      }
+    ],
+    "valor_total": 72.0,
+    "comissao_valor": 1.8,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1093,
+    "cliente_id": "C006",
+    "vendedor_id": "V06",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-09T12:50",
+    "itens": [
+      {
+        "produto_id": "P04",
+        "descricao": "Álcool 70% 5L",
+        "quantidade": 2,
+        "preco_unitario": 39.9
+      },
+      {
+        "produto_id": "P01",
+        "descricao": "Detergente neutro concentrado 5L",
+        "quantidade": 12,
+        "preco_unitario": 42.9
+      },
+      {
+        "produto_id": "P06",
+        "descricao": "Papel toalha interfolha (cx 1000 fl)",
+        "quantidade": 11,
+        "preco_unitario": 54.0
+      }
+    ],
+    "valor_total": 1188.6,
+    "comissao_valor": 35.66,
+    "status": "entregue",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1094,
+    "cliente_id": "C031",
+    "vendedor_id": "V01",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-10T07:57",
+    "itens": [
+      {
+        "produto_id": "P12",
+        "descricao": "Secante para lava-louças 5L",
+        "quantidade": 8,
+        "preco_unitario": 88.0
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 10,
+        "preco_unitario": 49.9
+      }
+    ],
+    "valor_total": 1203.0,
+    "comissao_valor": 36.09,
+    "status": "aguardando_liberacao",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1095,
+    "cliente_id": "C014",
+    "vendedor_id": "V02",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-10T08:49",
+    "itens": [
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 9,
+        "preco_unitario": 31.5
+      },
+      {
+        "produto_id": "P10",
+        "descricao": "Luva nitrílica (cx 100)",
+        "quantidade": 7,
+        "preco_unitario": 45.0
+      }
+    ],
+    "valor_total": 598.5,
+    "comissao_valor": 17.95,
+    "status": "bloqueado_financeiro",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1096,
+    "cliente_id": "C004",
+    "vendedor_id": "V04",
+    "canal_origem": "telefone",
+    "criado_em": "2026-11-10T08:07",
+    "itens": [
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 10,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 8,
+        "preco_unitario": 29.9
+      }
+    ],
+    "valor_total": 959.2,
+    "comissao_valor": 33.57,
+    "status": "aguardando_liberacao",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1097,
+    "cliente_id": "C035",
+    "vendedor_id": "V05",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-10T16:15",
+    "itens": [
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 9,
+        "preco_unitario": 29.9
+      }
+    ],
+    "valor_total": 269.1,
+    "comissao_valor": 6.73,
+    "status": "aguardando_liberacao",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1098,
+    "cliente_id": "C028",
+    "vendedor_id": "V04",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-10T10:36",
+    "itens": [
+      {
+        "produto_id": "P10",
+        "descricao": "Luva nitrílica (cx 100)",
+        "quantidade": 6,
+        "preco_unitario": 45.0
+      }
+    ],
+    "valor_total": 270.0,
+    "comissao_valor": 9.45,
+    "status": "aguardando_liberacao",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1099,
+    "cliente_id": "C034",
+    "vendedor_id": "V04",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-10T07:24",
+    "itens": [
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 9,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 9,
+        "preco_unitario": 31.5
+      },
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 9,
+        "preco_unitario": 29.9
+      }
+    ],
+    "valor_total": 1169.1,
+    "comissao_valor": 40.92,
+    "status": "aguardando_liberacao",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1100,
+    "cliente_id": "C024",
+    "vendedor_id": "V06",
+    "canal_origem": "email",
+    "criado_em": "2026-11-10T18:42",
+    "itens": [
+      {
+        "produto_id": "P12",
+        "descricao": "Secante para lava-louças 5L",
+        "quantidade": 2,
+        "preco_unitario": 88.0
+      },
+      {
+        "produto_id": "P01",
+        "descricao": "Detergente neutro concentrado 5L",
+        "quantidade": 6,
+        "preco_unitario": 42.9
+      },
+      {
+        "produto_id": "P06",
+        "descricao": "Papel toalha interfolha (cx 1000 fl)",
+        "quantidade": 4,
+        "preco_unitario": 54.0
+      }
+    ],
+    "valor_total": 649.4,
+    "comissao_valor": 19.48,
+    "status": "separacao",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1101,
+    "cliente_id": "C009",
+    "vendedor_id": "V03",
+    "canal_origem": "telefone",
+    "criado_em": "2026-11-11T12:52",
+    "itens": [
+      {
+        "produto_id": "P06",
+        "descricao": "Papel toalha interfolha (cx 1000 fl)",
+        "quantidade": 9,
+        "preco_unitario": 54.0
+      }
+    ],
+    "valor_total": 486.0,
+    "comissao_valor": 12.15,
+    "status": "separacao",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1102,
+    "cliente_id": "C031",
+    "vendedor_id": "V01",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-11T07:18",
+    "itens": [
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 12,
+        "preco_unitario": 18.9
+      },
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 8,
+        "preco_unitario": 68.5
+      }
+    ],
+    "valor_total": 774.8,
+    "comissao_valor": 23.24,
+    "status": "aguardando_liberacao",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1103,
+    "cliente_id": "C003",
+    "vendedor_id": "V03",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-11T07:48",
+    "itens": [
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 9,
+        "preco_unitario": 36.0
+      },
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 8,
+        "preco_unitario": 31.5
+      },
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 5,
+        "preco_unitario": 72.0
+      }
+    ],
+    "valor_total": 936.0,
+    "comissao_valor": 23.4,
+    "status": "separacao",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1104,
+    "cliente_id": "C023",
+    "vendedor_id": "V05",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-11T11:07",
+    "itens": [
+      {
+        "produto_id": "P11",
+        "descricao": "Pano microfibra (pct 10)",
+        "quantidade": 6,
+        "preco_unitario": 29.9
+      }
+    ],
+    "valor_total": 179.4,
+    "comissao_valor": 4.49,
+    "status": "aguardando_liberacao",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1105,
+    "cliente_id": "C026",
+    "vendedor_id": "V02",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-11T11:51",
+    "itens": [
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 12,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P06",
+        "descricao": "Papel toalha interfolha (cx 1000 fl)",
+        "quantidade": 8,
+        "preco_unitario": 54.0
+      },
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 6,
+        "preco_unitario": 18.9
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 9,
+        "preco_unitario": 49.9
+      }
+    ],
+    "valor_total": 1858.5,
+    "comissao_valor": 55.76,
+    "status": "aguardando_liberacao",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1106,
+    "cliente_id": "C006",
+    "vendedor_id": "V06",
+    "canal_origem": "email",
+    "criado_em": "2026-11-11T17:18",
+    "itens": [
+      {
+        "produto_id": "P10",
+        "descricao": "Luva nitrílica (cx 100)",
+        "quantidade": 6,
+        "preco_unitario": 45.0
+      },
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 2,
+        "preco_unitario": 18.9
+      },
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 2,
+        "preco_unitario": 31.5
+      },
+      {
+        "produto_id": "P05",
+        "descricao": "Sabonete líquido 5L",
+        "quantidade": 6,
+        "preco_unitario": 36.0
+      }
+    ],
+    "valor_total": 586.8,
+    "comissao_valor": 17.6,
+    "status": "aguardando_liberacao",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1107,
+    "cliente_id": "C028",
+    "vendedor_id": "V04",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-11T07:46",
+    "itens": [
+      {
+        "produto_id": "P12",
+        "descricao": "Secante para lava-louças 5L",
+        "quantidade": 6,
+        "preco_unitario": 88.0
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 8,
+        "preco_unitario": 49.9
+      }
+    ],
+    "valor_total": 927.2,
+    "comissao_valor": 32.45,
+    "status": "recebido",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1108,
+    "cliente_id": "C026",
+    "vendedor_id": "V02",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-11T11:51",
+    "itens": [
+      {
+        "produto_id": "P07",
+        "descricao": "Papel higiênico rolão (fardo 8)",
+        "quantidade": 12,
+        "preco_unitario": 72.0
+      },
+      {
+        "produto_id": "P06",
+        "descricao": "Papel toalha interfolha (cx 1000 fl)",
+        "quantidade": 8,
+        "preco_unitario": 54.0
+      },
+      {
+        "produto_id": "P03",
+        "descricao": "Água sanitária 5L",
+        "quantidade": 6,
+        "preco_unitario": 18.9
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 9,
+        "preco_unitario": 49.9
+      }
+    ],
+    "valor_total": 1858.5,
+    "comissao_valor": 55.76,
+    "status": "aguardando_liberacao",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": "digitado 2x? conferir"
+  },
+  {
+    "numero": 1109,
+    "cliente_id": "C032",
+    "vendedor_id": "V02",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-11T09:12",
+    "itens": [
+      {
+        "produto_id": "P02",
+        "descricao": "Desengordurante industrial 5L",
+        "quantidade": 6,
+        "preco_unitario": 68.5
+      },
+      {
+        "produto_id": "P08",
+        "descricao": "Saco de lixo 100L (pct 100)",
+        "quantidade": 4,
+        "preco_unitario": 49.9
+      }
+    ],
+    "valor_total": 610.6,
+    "comissao_valor": 18.32,
+    "status": "aguardando_liberacao",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  },
+  {
+    "numero": 1110,
+    "cliente_id": "C037",
+    "vendedor_id": "V01",
+    "canal_origem": "whatsapp_vendedor",
+    "criado_em": "2026-11-11T10:41",
+    "itens": [
+      {
+        "produto_id": "P01",
+        "descricao": "Detergente neutro concentrado 5L",
+        "quantidade": 10,
+        "preco_unitario": 42.9
+      },
+      {
+        "produto_id": "P06",
+        "descricao": "Papel toalha interfolha (cx 1000 fl)",
+        "quantidade": 8,
+        "preco_unitario": 54.0
+      },
+      {
+        "produto_id": "P09",
+        "descricao": "Limpador multiuso 5L",
+        "quantidade": 6,
+        "preco_unitario": 31.5
+      }
+    ],
+    "valor_total": 1050.0,
+    "comissao_valor": 31.5,
+    "status": "aguardando_liberacao",
+    "liberado_por": null,
+    "liberado_em": null,
+    "observacao": ""
+  }
+]

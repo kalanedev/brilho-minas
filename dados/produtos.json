@@ -1,0 +1,62 @@
+[
+  {
+    "id": "P01",
+    "descricao": "Detergente neutro concentrado 5L",
+    "preco": 42.9
+  },
+  {
+    "id": "P02",
+    "descricao": "Desengordurante industrial 5L",
+    "preco": 68.5
+  },
+  {
+    "id": "P03",
+    "descricao": "Água sanitária 5L",
+    "preco": 18.9
+  },
+  {
+    "id": "P04",
+    "descricao": "Álcool 70% 5L",
+    "preco": 39.9
+  },
+  {
+    "id": "P05",
+    "descricao": "Sabonete líquido 5L",
+    "preco": 36.0
+  },
+  {
+    "id": "P06",
+    "descricao": "Papel toalha interfolha (cx 1000 fl)",
+    "preco": 54.0
+  },
+  {
+    "id": "P07",
+    "descricao": "Papel higiênico rolão (fardo 8)",
+    "preco": 72.0
+  },
+  {
+    "id": "P08",
+    "descricao": "Saco de lixo 100L (pct 100)",
+    "preco": 49.9
+  },
+  {
+    "id": "P09",
+    "descricao": "Limpador multiuso 5L",
+    "preco": 31.5
+  },
+  {
+    "id": "P10",
+    "descricao": "Luva nitrílica (cx 100)",
+    "preco": 45.0
+  },
+  {
+    "id": "P11",
+    "descricao": "Pano microfibra (pct 10)",
+    "preco": 29.9
+  },
+  {
+    "id": "P12",
+    "descricao": "Secante para lava-louças 5L",
+    "preco": 88.0
+  }
+]
