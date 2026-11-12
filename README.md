@@ -25,6 +25,19 @@ O diagnóstico da Parte 1 está em [DIAGNOSTICO.md](DIAGNOSTICO.md).
 | `dados/` | Os arquivos originais do Sistemão, sem alteração. |
 | `testes/regra.test.js` | Os testes da regra. |
 
+## Prints
+
+Tirados da tela com os dados de 11/11/2026. Clique em uma imagem para ver no tamanho real.
+
+**Visão da Marta (financeiro), no computador**
+
+<a href="prints/marta-financeiro.png"><img src="prints/marta-financeiro.png" alt="Fila do financeiro na visão da Marta, com os pedidos em cards ordenados por Bloquear, Atenção e Liberar" width="600"></a>
+
+**Visão de uma vendedora (Patrícia Lopes), no celular**
+
+<a href="prints/vendedor-celular.png"><img src="prints/vendedor-celular.png" alt="Lista de pedidos da vendedora no celular, sem valores de dívida" width="280"></a>
+<a href="prints/vendedor-celular-pedido-aberto.png"><img src="prints/vendedor-celular-pedido-aberto.png" alt="Pedido aberto em separado no celular, com a tabela de itens" width="280"></a>
+
 ## Decisões e por quê
 
 | Decisão | Por quê |
@@ -112,7 +125,3 @@ ntraste que eu mesma tinha definido. Foi trocado por texto escuro sobre fundo ro
 - **Pedidos em separação ou em rota na conta da dívida.** Não sei se já viraram boleto no Sistemão. Hoje não entram.
 - **Semanas 2 e 3 do diagnóstico:** registro do pedido pelo vendedor e lista para a logística.
 - **Testes da tela.** Os testes automáticos cobrem só a regra.
-
-## Tempo utilizado para a realização do teste
-
-- **3h23min**
