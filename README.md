@@ -32,6 +32,7 @@ Tirados da tela com os dados de 11/11/2026. Clique em uma imagem para ver no tam
 **Visão da Marta (financeiro), no computador**
 
 <a href="prints/marta-financeiro.png"><img src="prints/marta-financeiro.png" alt="Fila do financeiro na visão da Marta, com os pedidos em cards ordenados por Bloquear, Atenção e Liberar" width="600"></a>
+<a href="prints/marta-financeiro-pedido-aberto.png"><img src="prints/marta-financeiro-pedido-aberto.png" alt="Pedido aberto em separado na visão da Marta, com os itens, a observação e os botões Liberar e Bloquear" width="600"></a>
 
 **Visão de uma vendedora (Patrícia Lopes), no celular**
 
