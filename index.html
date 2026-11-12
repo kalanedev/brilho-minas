@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brilho Minas · Fila do financeiro</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <header class="topo">
+    <h1>Brilho Minas <span>Fila do financeiro</span></h1>
+    <label class="quem">
+      Quem está vendo
+      <select id="perfil"></select>
+    </label>
+  </header>
+
+  <main id="conteudo"></main>
+
+  <footer class="rodape">
+    <p>Dados do Sistemão em <span id="data-referencia"></span>. As decisões ficam registradas neste navegador.</p>
+    <button id="reiniciar" class="botao-discreto" hidden>Reiniciar demonstração</button>
+  </footer>
+
+  <!-- A ordem importa: cada arquivo usa o que os anteriores definiram. -->
+  <script src="js/dados.js"></script>
+  <script src="js/regra.js"></script>
+  <script src="js/comum.js"></script>
+  <script src="js/financeiro.js"></script>
+  <script src="js/vendedor.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+/* Pensado primeiro para o celular (vendedor); no computador só fica mais largo. */
+
+:root {
+  --fundo: #f4f5f7;
+  --cartao: #ffffff;
+  --texto: #1c2430;
+  --discreto: #5d6878;
+  --linha: #dde1e7;
+  --marca: #14506b;
+
+  --bloquear: #b3261e;
+  --bloquear-fundo: #fbe9e7;
+  --atencao: #8a5a00;
+  --atencao-fundo: #fff3d6;
+  --liberar: #1b6b3a;
+  --liberar-fundo: #e3f4e8;
+  --neutro: #5d6878;
+  --neutro-fundo: #eceef2;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--fundo);
+  color: var(--texto);
+  font: 16px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.topo {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: var(--marca);
+  color: #fff;
+}
+
+.topo h1 { margin: 0; font-size: 1.1rem; }
+.topo h1 span { font-weight: 400; opacity: 0.85; margin-left: 6px; }
+
+.quem { display: flex; flex-direction: column; font-size: 0.75rem; gap: 2px; }
+.quem select { font: inherit; font-size: 1rem; padding: 8px; border-radius: 6px; border: 0; max-width: 100%; }
+
+main { max-width: 760px; margin: 0 auto; padding: 16px; }
+
+h2 { font-size: 1rem; margin: 28px 0 10px; color: var(--discreto); text-transform: uppercase; letter-spacing: 0.04em; }
+h3 { margin: 6px 0 2px; font-size: 1.05rem; }
+
+.resumo { margin: 0 0 4px; }
+.vazio { padding: 24px; text-align: center; color: var(--discreto); background: var(--cartao); border-radius: 10px; }
+.discreto { color: var(--discreto); font-size: 0.875rem; margin: 0; }
+
+.cartao {
+  background: var(--cartao);
+  border: 1px solid var(--linha);
+  border-left: 6px solid var(--neutro);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+}
+.cartao p { margin: 8px 0; }
+.borda-bloquear { border-left-color: var(--bloquear); }
+.borda-atencao { border-left-color: var(--atencao); }
+.borda-liberar { border-left-color: var(--liberar); }
+
+.selo {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background: var(--neutro-fundo);
+  color: var(--neutro);
+}
+.selo-bloquear { background: var(--bloquear-fundo); color: var(--bloquear); }
+.selo-atencao { background: var(--atencao-fundo); color: var(--atencao); }
+.selo-liberar { background: var(--liberar-fundo); color: var(--liberar); }
+
+.motivos { margin: 10px 0; padding-left: 20px; }
+
+.alertas {
+  list-style: none;
+  margin: 10px 0;
+  padding: 10px 12px;
+  background: var(--atencao-fundo);
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+.alertas li::before { content: "⚠ "; }
+.alertas li + li { margin-top: 6px; }
+
+.numeros { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin: 12px 0; }
+.numeros div { background: var(--fundo); border-radius: 8px; padding: 8px 10px; }
+.numeros dt { font-size: 0.75rem; color: var(--discreto); }
+.numeros dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
+
+details { font-size: 0.9rem; margin: 8px 0; }
+summary { cursor: pointer; color: var(--marca); }
+details ul { margin: 6px 0 0; padding-left: 20px; }
+
+.acoes { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; }
+.acoes label, .acoes .erro { grid-column: 1 / -1; }
+.acoes label { font-size: 0.875rem; }
+.acoes input { display: block; width: 100%; margin-top: 4px; padding: 10px; font: inherit; border: 1px solid var(--linha); border-radius: 8px; }
+.erro { margin: 0; color: var(--bloquear); font-size: 0.875rem; }
+
+.botao {
+  min-height: 44px; /* tamanho confortável para o dedo */
+  border: 0;
+  border-radius: 8px;
+  font: inherit;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}
+.botao-liberar { background: var(--liberar); }
+.botao-bloquear { background: var(--bloquear); }
+.botao:hover { filter: brightness(1.1); }
+.botao:focus-visible, select:focus-visible, input:focus-visible, summary:focus-visible { outline: 3px solid #f0a500; outline-offset: 2px; }
+
+.decisao { padding: 10px 12px; border-radius: 8px; background: var(--neutro-fundo); }
+.decisao-liberado { background: var(--liberar-fundo); }
+.decisao-bloqueado { background: var(--bloquear-fundo); }
+
+.rodape { max-width: 760px; margin: 0 auto; padding: 8px 16px 32px; color: var(--discreto); font-size: 0.8rem; }
+.botao-discreto { background: none; border: 1px solid var(--linha); border-radius: 6px; padding: 6px 10px; color: var(--discreto); cursor: pointer; font: inherit; }
+
+@media (min-width: 600px) {
+  .numeros { grid-template-columns: repeat(4, 1fr); }
+}
