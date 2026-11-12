@@ -68,8 +68,42 @@ const diaHora = (iso) => `${Regra.formatarDia(iso)} às ${iso.slice(11, 16)}`;
 const nomeVendedor = (id) => DADOS.vendedores.find((v) => v.id === id)?.nome ?? 'Vendedor não identificado';
 const porCriacao = (a, b) => a.criado_em.localeCompare(b.criado_em);
 
-function listaItens(pedido) {
-  return pedido.itens.map((i) => `<li>${i.quantidade} × ${esc(i.descricao)}</li>`).join('');
+const pedidoDe = (numero) => DADOS.pedidos.find((p) => p.numero === numero);
+
+// A tabela de itens, mostrada só no card aberto em separado.
+function tabelaItens(pedido) {
+  const linhas = pedido.itens
+    .map(
+      (i) => `
+        <tr>
+          <td class="n">${i.quantidade} ×</td>
+          <td>${esc(i.descricao)}</td>
+          <td class="n">${reais(i.preco_unitario)}</td>
+          <td class="n">${reais(i.quantidade * i.preco_unitario)}</td>
+        </tr>`
+    )
+    .join('');
+
+  return `
+    <table class="itens">
+      <caption>Itens do pedido</caption>
+      <thead><tr><th class="n">Qtd.</th><th>Produto</th><th class="n">Preço</th><th class="n">Subtotal</th></tr></thead>
+      <tbody>${linhas}</tbody>
+      <tfoot><tr><td colspan="3">Total</td><td class="n">${reais(pedido.valor_total)}</td></tr></tfoot>
+    </table>`;
+}
+
+// Na grade, o card mostra o botão que abre o pedido em separado.
+// No card aberto, o botão dá lugar à tabela de itens.
+function itensOuBotao(pedido, aberto) {
+  if (aberto) return tabelaItens(pedido);
+  return `<button class="abrir" data-abrir="${pedido.numero}">Itens do pedido (${pedido.itens.length}) ›</button>`;
+}
+
+// Título de seção com o contador, seguido da grade de cards.
+function secao(titulo, pedidos, cartao) {
+  if (!pedidos.length) return '';
+  return `<h2>${titulo} <em>${pedidos.length}</em></h2><div class="grade">${pedidos.map((p) => cartao(p)).join('')}</div>`;
 }
 
 function selo(sugestao, prefixo = '') {

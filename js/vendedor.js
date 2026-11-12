@@ -23,21 +23,22 @@ function situacaoParaVendedor(pedido) {
   return { classe: 'neutro', titulo: ROTULO_STATUS[pedido.status], texto: '' };
 }
 
-function cartaoVendedor(pedido) {
+// aberto = true quando o card está no diálogo, aberto em separado.
+function cartaoVendedor(pedido, aberto = false) {
   const cliente = DADOS.clientes.find((c) => c.id === pedido.cliente_id);
   const situacao = situacaoParaVendedor(pedido);
   const alertas = analisar(pedido).alertas.filter((a) => a.paraVendedor);
 
   return `
-    <article class="cartao borda-${situacao.classe}">
+    <article class="cartao borda-${situacao.classe}" data-numero="${pedido.numero}">
       <header>
         <span class="selo selo-${situacao.classe}">${esc(situacao.titulo)}</span>
-        <h3>Pedido ${pedido.numero} · ${esc(cliente.razao_social)}</h3>
+        <h3><small>Pedido ${pedido.numero}</small>${esc(cliente.razao_social)}</h3>
         <p class="discreto">${diaHora(pedido.criado_em)} · ${reais(pedido.valor_total)} · comissão ${reais(pedido.comissao_valor)}</p>
       </header>
       ${situacao.texto ? `<p>${esc(situacao.texto)}</p>` : ''}
       ${listaAlertas(alertas)}
-      <details><summary>Itens do pedido</summary><ul>${listaItens(pedido)}</ul></details>
+      ${itensOuBotao(pedido, aberto)}
     </article>`;
 }
 
@@ -47,5 +48,9 @@ function telaVendedor(vendedorId) {
     .sort((a, b) => porCriacao(b, a)); // mais novo primeiro
 
   if (!emAndamento.length) return '<p class="vazio">Nenhum pedido seu em andamento.</p>';
-  return `<p class="resumo"><strong>${emAndamento.length}</strong> pedidos seus em andamento</p>${emAndamento.map(cartaoVendedor).join('')}`;
+  return `
+    <section class="painel">
+      <div class="painel-unico"><b>${emAndamento.length}</b><span>pedidos seus em andamento</span></div>
+    </section>
+    ${secao('Meus pedidos', emAndamento, cartaoVendedor)}`;
 }

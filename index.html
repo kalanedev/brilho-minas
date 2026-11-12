@@ -8,7 +8,10 @@
 </head>
 <body>
   <header class="topo">
-    <h1>Brilho Minas <span>Fila do financeiro</span></h1>
+    <div class="marca">
+      <i aria-hidden="true">✦</i>
+      <h1>Brilho Minas <span>Fila do financeiro</span></h1>
+    </div>
     <label class="quem">
       Quem está vendo
       <select id="perfil"></select>
@@ -21,6 +24,9 @@
     <p>Dados do Sistemão em <span id="data-referencia"></span>. As decisões ficam registradas neste navegador.</p>
     <button id="reiniciar" class="botao-discreto" hidden>Reiniciar demonstração</button>
   </footer>
+
+  <!-- O pedido aberto em separado é desenhado aqui dentro (veja js/app.js). -->
+  <dialog id="aberto" aria-label="Pedido aberto"></dialog>
 
   <!-- A ordem importa: cada arquivo usa o que os anteriores definiram. -->
   <script src="js/dados.js"></script>

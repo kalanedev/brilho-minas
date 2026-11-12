@@ -1,9 +1,10 @@
 // VISÃO DO FINANCEIRO
 //
-// A fila da Marta: cada pedido com a sugestão, o motivo, os números e os
+// A fila da Marta em cards: cada pedido com a sugestão, o motivo, os números e os
 // botões para registrar a decisão. Usa o que está em js/comum.js.
 
-function cartaoFinanceiro(pedido) {
+// aberto = true quando o card está no diálogo, aberto em separado.
+function cartaoFinanceiro(pedido, aberto = false) {
   const analise = analisar(pedido);
   const decisao = decisaoDo(pedido.numero);
   const v = analise.valores;
@@ -22,11 +23,11 @@ function cartaoFinanceiro(pedido) {
     rodape = `
       <div class="acoes">
         <label>Observação <span class="discreto">(obrigatória se decidir diferente da sugestão)</span>
-          <input type="text" id="obs-${pedido.numero}" maxlength="200">
+          <input type="text" class="obs" maxlength="200">
         </label>
-        <p class="erro" id="erro-${pedido.numero}" hidden></p>
-        <button data-acao="LIBERADO" data-numero="${pedido.numero}" class="botao botao-liberar">Liberar</button>
-        <button data-acao="BLOQUEADO" data-numero="${pedido.numero}" class="botao botao-bloquear">Bloquear</button>
+        <p class="erro" hidden></p>
+        <button data-acao="LIBERADO" class="botao botao-liberar">Liberar</button>
+        <button data-acao="BLOQUEADO" class="botao botao-bloquear">Bloquear</button>
       </div>`;
   } else if (pedido.status === 'bloqueado_financeiro') {
     rodape = `<p class="decisao decisao-bloqueado"><strong>Bloqueado no Sistemão.</strong> O Sistemão não registrou quem bloqueou nem quando.</p>`;
@@ -35,10 +36,10 @@ function cartaoFinanceiro(pedido) {
   }
 
   return `
-    <article class="cartao borda-${analise.sugestao.toLowerCase()}">
+    <article class="cartao borda-${analise.sugestao.toLowerCase()}" data-numero="${pedido.numero}">
       <header>
         ${selo(analise.sugestao, decisao ? 'Sugestão: ' : '')}
-        <h3>Pedido ${pedido.numero} · ${esc(analise.cliente.razao_social)}</h3>
+        <h3><small>Pedido ${pedido.numero}</small>${esc(analise.cliente.razao_social)}</h3>
         <p class="discreto">${esc(pedido.cliente_id)} · ${esc(nomeVendedor(pedido.vendedor_id))} · ${diaHora(pedido.criado_em)}</p>
       </header>
       <ul class="motivos">${analise.motivos.map((m) => `<li>${esc(m)}</li>`).join('')}</ul>
@@ -49,7 +50,7 @@ function cartaoFinanceiro(pedido) {
         <div><dt>Limite</dt><dd>${Regra.formatarReais(v.limite)}</dd></div>
         <div><dt>Maior atraso</dt><dd>${v.maiorAtraso ? v.maiorAtraso + ' d' : 'nenhum'}</dd></div>
       </dl>
-      <details><summary>Itens do pedido</summary><ul>${listaItens(pedido)}</ul></details>
+      ${itensOuBotao(pedido, aberto)}
       ${rodape}
     </article>`;
 }
@@ -71,37 +72,43 @@ function telaFinanceiro() {
   const aCaminho = DADOS.pedidos.filter((p) => p.status === 'recebido').sort(porCriacao);
 
   const contar = (s) => pendentes.filter((x) => x.sugestao === s).length;
-  const secao = (titulo, pedidos) =>
-    pedidos.length ? `<h2>${titulo} (${pedidos.length})</h2>${pedidos.map(cartaoFinanceiro).join('')}` : '';
 
   return `
-    <p class="resumo">
-      <strong>${pendentes.length}</strong> pedidos aguardando decisão:
-      ${selo('BLOQUEAR', contar('BLOQUEAR') + ' ')} ${selo('ATENCAO', contar('ATENCAO') + ' ')} ${selo('LIBERAR', contar('LIBERAR') + ' ')}
-    </p>
+    <section class="painel">
+      <div><b>${pendentes.length}</b><span>aguardando decisão</span></div>
+      <div class="p-bloquear"><b>${contar('BLOQUEAR')}</b><span>Bloquear</span></div>
+      <div class="p-atencao"><b>${contar('ATENCAO')}</b><span>Atenção</span></div>
+      <div class="p-liberar"><b>${contar('LIBERAR')}</b><span>Liberar</span></div>
+    </section>
     ${pendentes.length ? '' : '<p class="vazio">Fila zerada. Nenhum pedido aguardando decisão.</p>'}
-    ${secao('Aguardando decisão', pendentes.map((x) => x.pedido))}
-    ${secao('Já decididos', decididos)}
-    ${secao('Ainda não chegaram ao financeiro', aCaminho)}`;
+    ${secao('Aguardando decisão', pendentes.map((x) => x.pedido), cartaoFinanceiro)}
+    ${secao('Já decididos', decididos, cartaoFinanceiro)}
+    ${secao('Ainda não chegaram ao financeiro', aCaminho, cartaoFinanceiro)}`;
 }
 
 // ---------- registrar a decisão ----------
 
-function registrarDecisao(numero, decisao) {
-  const pedido = DADOS.pedidos.find((p) => p.numero === numero);
+// cartaoEl: o card onde o botão foi clicado (na grade ou no diálogo). O campo de
+// observação e a mensagem de erro são procurados dentro dele, porque o mesmo
+// pedido pode estar desenhado nos dois lugares ao mesmo tempo.
+// Devolve true se a decisão foi registrada.
+function registrarDecisao(cartaoEl, decisao) {
+  const numero = Number(cartaoEl.dataset.numero);
+  const pedido = pedidoDe(numero);
   const analise = analisar(pedido);
-  const observacao = document.getElementById(`obs-${numero}`).value.trim();
+  const campoObservacao = cartaoEl.querySelector('.obs');
+  const observacao = campoObservacao.value.trim();
 
   // "Atenção" significa liberar com cobrança, então liberar segue a sugestão.
   const esperado = analise.sugestao === 'BLOQUEAR' ? 'BLOQUEADO' : 'LIBERADO';
   const contrariouSugestao = decisao !== esperado;
 
   if (contrariouSugestao && !observacao) {
-    const erro = document.getElementById(`erro-${numero}`);
+    const erro = cartaoEl.querySelector('.erro');
     erro.textContent = `A sugestão é ${ROTULO_SUGESTAO[analise.sugestao]}. Para decidir diferente, escreva o motivo na observação.`;
     erro.hidden = false;
-    document.getElementById(`obs-${numero}`).focus();
-    return;
+    campoObservacao.focus();
+    return false;
   }
 
   // Guarda também a sugestão e o motivo daquele momento: é o registro que o
@@ -117,5 +124,5 @@ function registrarDecisao(numero, decisao) {
     observacao,
   });
   salvarDecisoes();
-  desenhar();
+  return true;
 }
